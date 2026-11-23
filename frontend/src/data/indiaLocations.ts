@@ -86,7 +86,7 @@ const RAW_LOCATIONS: Record<string, string[]> = {
     'Waidhan',
   ],
   'Maharashtra': [
-    'Ahilyanagar (Ahmednagar)', 'Akalkot', 'Akluj', 'Akola', 'Amravati', 'Baramati', 'Barshi', 'Beed',
+    'Ahilyanagar (Ahmednagar)', 'Akkalkot', 'Akluj', 'Akola', 'Amravati', 'Baramati', 'Barshi', 'Beed',
     'Bhandara', 'Bhiwandi', 'Buldhana', 'Chandrapur', 'Chhatrapati Sambhajinagar (Aurangabad)',
     'Dharashiv (Osmanabad)', 'Dhule', 'Gadchiroli', 'Gondia', 'Hingoli', 'Ichalkaranji', 'Jalgaon', 'Jalna',
     'Kalyan-Dombivli', 'Karmala', 'Kolhapur', 'Kurduwadi', 'Latur', 'Madha', 'Malegaon', 'Malshiras',
