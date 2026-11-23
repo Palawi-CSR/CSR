@@ -1,2 +1,6 @@
-# Python dependencies for the Vercel function (api/index.py). The list lives in backend/.
--r backend/requirements.txt
+# Python dependencies of the API. Vercel installs this file for the function in api/index.py
+# (Vercel cannot follow "-r" includes, so the list lives here; backend/requirements.txt includes it).
+fastapi>=0.115,<1.0
+pymongo>=4.13,<5.0
+pydantic>=2.9,<3.0
+pydantic-settings>=2.6,<3.0

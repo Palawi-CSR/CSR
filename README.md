@@ -110,7 +110,7 @@ files and the FastAPI app runs as a Python serverless function on the same domai
 | --- | --- |
 | [vercel.json](vercel.json) | Builds `frontend/` into `frontend/dist`; sends `/api/*`, `/files/*` and `/health` to the function; everything else to `index.html` |
 | [api/index.py](api/index.py) | Function entry point: imports the FastAPI `app` from `backend/main.py` |
-| [requirements.txt](requirements.txt) | Python dependencies for the function (includes `backend/requirements.txt`) |
+| [requirements.txt](requirements.txt) | The API's Python dependencies, installed by Vercel for the function (`backend/requirements.txt` includes it and adds `uvicorn` for local runs) |
 | [.vercelignore](.vercelignore) | Keeps `.env`, `.venv`, `node_modules` and `backend/storage` out of CLI uploads |
 
 1. Import the repo in Vercel and keep the **Root Directory** as the repo root
