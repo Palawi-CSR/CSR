@@ -17,17 +17,9 @@ import { useLanguage } from './context/LanguageContext';
 
 export default function App() {
   const { tr } = useLanguage();
-  const [user, setUser] = useState<User | null>({
-    id: 'usr_1',
-    name: 'Admin',
-    email: 'admin@palawi.org',
-    role: 'Admin',
-    organization: 'Palawi Foundation',
-    createdAt: '2025-01-10T08:00:00Z',
-  });
-
-  // Default to Dashboard when logged in
-  const [activeTab, setActiveTab] = useState(user ? 'dashboard' : 'home');
+  // Start signed out on the public home page; signing in opens the role's own screen.
+  const [user, setUser] = useState<User | null>(null);
+  const [activeTab, setActiveTab] = useState('home');
   const [metrics, setMetrics] = useState<any>(null);
   const [showLoginScreen, setShowLoginScreen] = useState(false);
 
@@ -69,6 +61,15 @@ export default function App() {
     setActiveTab('home');
   };
 
+  // Signed-out visitors only see the home page; any other screen asks them to sign in first.
+  const navigate = (tab: string) => {
+    if (!user && tab !== 'home') {
+      setShowLoginScreen(true);
+      return;
+    }
+    setActiveTab(tab);
+  };
+
   const handleOpenWhatsAppForContact = (phone: string, name: string, defaultText?: string) => {
     setWhatsappPhone(phone);
     setWhatsappName(name);
@@ -94,8 +95,8 @@ export default function App() {
       <Navbar
         user={user}
         onSelectRole={handleSelectRole}
-        onOpenQuickOutreach={() => setActiveTab('whatsapp-suite')}
-        onOpenAddPartner={() => setActiveTab('csr-database')}
+        onOpenQuickOutreach={() => navigate('whatsapp-suite')}
+        onOpenAddPartner={() => navigate('csr-database')}
         onOpenLogin={() => setShowLoginScreen(true)}
         onLogout={handleLogout}
       />
@@ -105,7 +106,7 @@ export default function App() {
         {/* Left Workspace Navigation Sidebar */}
         <Sidebar
           activeTab={activeTab}
-          setActiveTab={setActiveTab}
+          setActiveTab={navigate}
           user={user}
         />
 
@@ -114,19 +115,19 @@ export default function App() {
           {/* Public Home Page - Only rendered when signed out */}
           {!user && activeTab === 'home' && (
             <HomePage
-              onNavigateTab={(tab) => setActiveTab(tab)}
-              onOpenQuickOutreach={() => setActiveTab('whatsapp-suite')}
+              onNavigateTab={navigate}
+              onOpenQuickOutreach={() => navigate('whatsapp-suite')}
               metrics={metrics}
             />
           )}
 
           {/* Gate Register - available to both Employee & Admin */}
-          {activeTab === 'gate-register' && (
+          {user && activeTab === 'gate-register' && (
             <GateRegisterLog />
           )}
 
           {/* Admin-only features: Only rendered if user is Admin / CSR Admin */}
-          {user?.role !== 'Employee' && (
+          {user && user.role !== 'Employee' && (
             <>
               {/* Dashboard Overview */}
               {activeTab === 'dashboard' && (
