@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+svg.lucide {
+  flex-shrink: 0;
+  stroke-width: 1.75;
+}

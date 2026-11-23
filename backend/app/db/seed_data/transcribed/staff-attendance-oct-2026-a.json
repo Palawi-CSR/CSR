@@ -1,0 +1,134 @@
+{
+ "note": "कर्मचारी हजेरी रजिस्टर, October 2026, filled up to 24 October. Days are counted from the signatures in the day boxes and are approximate; dashes mean no signature. The 'working days' and 'leave days' totals are blank in the register. Names and roles marked [?] were hard to read. Register pages 24–27 (16 staff).",
+ "columns": [
+  {
+   "key": "srNo",
+   "en": "Sr.",
+   "mr": "अ. नं."
+  },
+  {
+   "key": "name",
+   "en": "Staff name",
+   "mr": "कर्मचारी नांव"
+  },
+  {
+   "key": "role",
+   "en": "Role",
+   "mr": "हुद्दा"
+  },
+  {
+   "key": "daysSigned",
+   "en": "Days signed (1–24 Oct, approx.)",
+   "mr": "सह्यांचे दिवस (1–24 ऑक्टो., अंदाजे)"
+  },
+  {
+   "key": "note",
+   "en": "Note",
+   "mr": "शेरा"
+  }
+ ],
+ "rows": [
+  {
+   "srNo": 1,
+   "name": "कोमल राजकुमार घाडगे",
+   "role": "[?]",
+   "daysSigned": 0,
+   "note": "Only dashes on 1–2 Oct"
+  },
+  {
+   "srNo": 2,
+   "name": "विजया राहुल दबडे",
+   "role": "काळजीवाहक",
+   "daysSigned": 0,
+   "note": "Only dashes on 1–2 Oct"
+  },
+  {
+   "srNo": 3,
+   "name": "मिरा लिलाधर जोरे [?]",
+   "role": "शिक्षिका [?]",
+   "daysSigned": 0,
+   "note": "Only dashes on 1–2 Oct"
+  },
+  {
+   "srNo": 4,
+   "name": "साक्षी कुमार आयरे",
+   "role": "लिपिक",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 5,
+   "name": "रुपाली दिपक वारसे",
+   "role": "काळजीवाहक",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 6,
+   "name": "दिक्षा शिवाजी शेळके",
+   "role": "समुपदेशिका [?]",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 7,
+   "name": "साक्षी तुकाराम गावडे",
+   "role": "समाजसेवा अधिकारी [?]",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 8,
+   "name": "आकाश श्रीकांत कवडे",
+   "role": "[?]",
+   "daysSigned": 21
+  },
+  {
+   "srNo": 9,
+   "name": "सुदिक्षा विष्णू लाड",
+   "role": "कला शिक्षिका",
+   "daysSigned": 23
+  },
+  {
+   "srNo": 10,
+   "name": "मोहिनी मकरंद कुलकर्णी",
+   "role": "संगीत शिक्षिका",
+   "daysSigned": 23
+  },
+  {
+   "srNo": 11,
+   "name": "विक्रम नंदकुमार ढवे [?]",
+   "role": "चालक",
+   "daysSigned": 17,
+   "note": "No signature 7–11 Oct"
+  },
+  {
+   "srNo": 12,
+   "name": "ज्ञानेश्वर दत्तात्रय चव्हाण",
+   "role": "माळी",
+   "daysSigned": 0,
+   "note": "Only dashes on 1–2 Oct"
+  },
+  {
+   "srNo": 13,
+   "name": "सोनाली संभाजी पवार",
+   "role": "काळजीवाहक",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 14,
+   "name": "वेदांत ज्ञानेश्वर करवे",
+   "role": "शिक्षक [?]",
+   "daysSigned": 21
+  },
+  {
+   "srNo": 15,
+   "name": "सागर साहेबराव चंदनशिवे",
+   "role": "शिक्षक",
+   "daysSigned": 15,
+   "note": "Signs on alternate days [?]"
+  },
+  {
+   "srNo": 16,
+   "name": "निकिता तेजस घाडगे",
+   "role": "ऑफिसर [?]",
+   "daysSigned": 22
+  }
+ ]
+}

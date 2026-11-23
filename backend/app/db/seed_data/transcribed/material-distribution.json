@@ -1,0 +1,184 @@
+{
+ "note": "This scan binds several Balgruh registers (June–September 2026): monthly / personal / school material, cleaning supplies, a haircut list and two admission pages. Per-child lists are summarised: every listed resident got the same items unless named. Values marked [?] were hard to read.",
+ "tables": [
+  {
+   "title": "Distributions",
+   "titleMr": "साहित्य वाटप नोंदी",
+   "columns": [
+    {
+     "key": "date",
+     "en": "Date",
+     "mr": "दिनांक"
+    },
+    {
+     "key": "register",
+     "en": "Register",
+     "mr": "साहित्य प्रकार"
+    },
+    {
+     "key": "items",
+     "en": "Items & quantity",
+     "mr": "वस्तू व प्रमाण"
+    },
+    {
+     "key": "recipients",
+     "en": "Given to",
+     "mr": "कोणाला"
+    },
+    {
+     "key": "note",
+     "en": "Note",
+     "mr": "शेरा"
+    }
+   ],
+   "rows": [
+    {
+     "date": "03/06/2026",
+     "register": "सफाईचे साहित्य (cleaning)",
+     "items": "फिनेल 10 लिटर, हार्पिक 10 लिटर, ॲसिड 10 लिटर, मोप 01 नग, (unclear item) 01 नग [?]",
+     "recipients": "अर्चना (सफाई कामगार)",
+     "note": "Doctor and superintendent signed"
+    },
+    {
+     "date": "June 2026",
+     "register": "कटिंग (haircut)",
+     "items": "30 मुलांची कटिंग – 30 × ₹100 = ₹3,000",
+     "recipients": "30 residents",
+     "note": ""
+    },
+    {
+     "date": "20/06/2026",
+     "register": "साहित्य वाटप (household)",
+     "items": "सतरंजी 01, चादर 01 (each)",
+     "recipients": "All 32 residents listed",
+     "note": "वृषाली and मायरा also got ताट 01, वाटी 01, ग्लास 01"
+    },
+    {
+     "date": "04/07/2026",
+     "register": "सफाईचे साहित्य (cleaning)",
+     "items": "हार्पिक 10 लिटर, फिनेल 10 लिटर, वायपर 01, ब्रश (बाथरूम घासण्याचा) 01, बकेट 01, मग [?] 01",
+     "recipients": "अर्चना (सफाई कामगार)",
+     "note": ""
+    },
+    {
+     "date": "04/08/2026",
+     "register": "वैयक्तिक साहित्य (personal, August)",
+     "items": "कपडे साबण 01, अंग साबण 01, तेल 01, कोलगेट 01, शाम्पू 04 (each)",
+     "recipients": "30 residents (signed)",
+     "note": ""
+    },
+    {
+     "date": "08/08/2026",
+     "register": "सफाईचे साहित्य (cleaning)",
+     "items": "फिनेल 10 लिटर, हार्पिक 10 लिटर, ॲसिड 10 लिटर",
+     "recipients": "अर्चना (सफाई कामगार)",
+     "note": ""
+    },
+    {
+     "date": "08/08/2026",
+     "register": "शैक्षणिक साहित्य (school, August)",
+     "items": "पेन्सिल 01, वही (मोठी) 01, चित्रकला वही 01, खोडरबर 01, पेन 01 (each)",
+     "recipients": "30 residents (signed)",
+     "note": ""
+    },
+    {
+     "date": "05/09/2026",
+     "register": "मासिक साहित्य (monthly, September)",
+     "items": "शर्ट 01 – समर्थ; ड्रेस / फ्रॉक 01 – प्राजक्ता; चप्पल 01 – रामेश्वरी; चप्पल 01 – विठाई (पुजा)",
+     "recipients": "4 residents",
+     "note": "Remaining children were checked and already had what they need [?]"
+    },
+    {
+     "date": "September 2026",
+     "register": "वैयक्तिक साहित्य (personal, September)",
+     "items": "Same list as August [?]",
+     "recipients": "30 residents (signed)",
+     "note": "Inspected 12/09/2026 by the women & child development office [?]"
+    }
+   ]
+  },
+  {
+   "title": "Admissions (प्रवेशित दाखल नोंदवही)",
+   "titleMr": "प्रवेशित दाखल नोंदवही",
+   "note": "Mayra is the baby in the Lactogen register (May–July 2026).",
+   "columns": [
+    {
+     "key": "admDate",
+     "en": "Admission date",
+     "mr": "प्रवेश दिनांक"
+    },
+    {
+     "key": "regNo",
+     "en": "Reg. no.",
+     "mr": "अनुक्रम (वार्षिक)"
+    },
+    {
+     "key": "name",
+     "en": "Name",
+     "mr": "प्रवेशिताचे नाव"
+    },
+    {
+     "key": "gender",
+     "en": "Gender",
+     "mr": "लिंग"
+    },
+    {
+     "key": "dob",
+     "en": "Date of birth",
+     "mr": "जन्म तारीख"
+    },
+    {
+     "key": "age",
+     "en": "Age",
+     "mr": "वय"
+    },
+    {
+     "key": "parent",
+     "en": "Parent & address",
+     "mr": "पालकाचे नाव व पत्ता"
+    },
+    {
+     "key": "occupation",
+     "en": "Parent occupation",
+     "mr": "पालकाचा व्यवसाय"
+    },
+    {
+     "key": "referredBy",
+     "en": "Admitted through",
+     "mr": "कोण मार्फत"
+    },
+    {
+     "key": "released",
+     "en": "Released",
+     "mr": "सुटका"
+    }
+   ],
+   "rows": [
+    {
+     "admDate": "23/5/26",
+     "regNo": "321",
+     "name": "वृषाली सुभान अन्सारी",
+     "gender": "स्त्री",
+     "dob": "—",
+     "age": "16 वर्षे",
+     "parent": "सुभान अन्सारी, दमाणी नगर, सोलापूर",
+     "occupation": "मजुरी",
+     "referredBy": "बा.क.स. सोलापूर, 23/5/26",
+     "released": "8/7/26 – पालकांच्या ताब्यात (bond 5/6/26)"
+    },
+    {
+     "admDate": "23/5/26",
+     "regNo": "322",
+     "name": "मायरा सुभान अन्सारी",
+     "gender": "स्त्री",
+     "dob": "5/5/26",
+     "age": "18 दिवस",
+     "parent": "सुभान अन्सारी, दमाणी नगर, सोलापूर",
+     "occupation": "मजुरी",
+     "referredBy": "बा.क.स. सोलापूर, 23/5/26",
+     "released": "8/7/26 – पालकांच्या ताब्यात (bond 5/6/26)"
+    }
+   ]
+  }
+ ]
+}

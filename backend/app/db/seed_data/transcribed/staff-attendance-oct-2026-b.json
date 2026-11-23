@@ -1,0 +1,228 @@
+{
+ "note": "कर्मचारी हजेरी रजिस्टर, October 2026, filled up to 24 October. Days are counted from the signatures in the day boxes and are approximate; dashes mean no signature. The 'working days' and 'leave days' totals are blank in the register. Names and roles marked [?] were hard to read. Register pages 51–57 (32 staff).",
+ "columns": [
+  {
+   "key": "srNo",
+   "en": "Sr.",
+   "mr": "अ. नं."
+  },
+  {
+   "key": "name",
+   "en": "Staff name",
+   "mr": "कर्मचारी नांव"
+  },
+  {
+   "key": "role",
+   "en": "Role",
+   "mr": "हुद्दा"
+  },
+  {
+   "key": "daysSigned",
+   "en": "Days signed (1–24 Oct, approx.)",
+   "mr": "सह्यांचे दिवस (1–24 ऑक्टो., अंदाजे)"
+  },
+  {
+   "key": "note",
+   "en": "Note",
+   "mr": "शेरा"
+  }
+ ],
+ "rows": [
+  {
+   "srNo": 1,
+   "name": "दिक्षा विनोद कसबे",
+   "role": "अधीक्षिका [?]",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 2,
+   "name": "राजकुमार अनंत घाडगे",
+   "role": "[?]",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 3,
+   "name": "तेजस राजकुमार घाडगे",
+   "role": "व्यवस्थापक [?]",
+   "daysSigned": 21
+  },
+  {
+   "srNo": 4,
+   "name": "राजश्री सुनिल कांबळे",
+   "role": "[?] (कंत्राटी)",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 5,
+   "name": "शितल मोहन वाघ",
+   "role": "[?] (कंत्राटी)",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 6,
+   "name": "सुरेश हरि कुंभार",
+   "role": "[?] (कंत्राटी)",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 7,
+   "name": "वैष्णवी विलास उकरे [?]",
+   "role": "[?] (कंत्राटी)",
+   "daysSigned": 22
+  },
+  {
+   "srNo": 8,
+   "name": "राजू मंजुळप्पा बिसनाळ",
+   "role": "[?] (कंत्राटी)",
+   "daysSigned": 24,
+   "note": "Also listed as #13 on page 53"
+  },
+  {
+   "srNo": 9,
+   "name": "डॉ. गजानन श्रीरंग बागल",
+   "role": "वैद्यकीय अधिकारी",
+   "daysSigned": 4,
+   "note": "Visiting doctor [?]"
+  },
+  {
+   "srNo": 10,
+   "name": "सिनाबाई सुरेश कुंभार",
+   "role": "परिचारिका",
+   "daysSigned": 11,
+   "note": "No signature about 3–13 Oct"
+  },
+  {
+   "srNo": 11,
+   "name": "प्रियंका मिलिंद उंडाळे [?]",
+   "role": "शिक्षिका",
+   "daysSigned": 22
+  },
+  {
+   "srNo": 12,
+   "name": "कांचन महेश खोत",
+   "role": "शिक्षिका [?]",
+   "daysSigned": 23
+  },
+  {
+   "srNo": 13,
+   "name": "राजू मंजुळप्पा बिसनाळ",
+   "role": "कला शिक्षक",
+   "daysSigned": 24,
+   "note": "Same name as #8"
+  },
+  {
+   "srNo": 14,
+   "name": "सोनाली राजू बिसनाळ",
+   "role": "स्वयंपाकी",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 15,
+   "name": "दिपा हणमंत माळी",
+   "role": "स्वयंपाकी",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 16,
+   "name": "प्रतिक्षा ज्ञानेश्वर ठाकरे",
+   "role": "[?]",
+   "daysSigned": 21
+  },
+  {
+   "srNo": 17,
+   "name": "राणी चंद्रकांत पवार",
+   "role": "[?]",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 18,
+   "name": "ज्ञानेश्वर सुरेश ठाकरे",
+   "role": "चालक",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 19,
+   "name": "खंडू भगवान रणदिवे",
+   "role": "चालक [?]",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 20,
+   "name": "रामेश्वर गजानन जुनघरे [?]",
+   "role": "सुरक्षा कर्मचारी",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 21,
+   "name": "राहुल शिवाजी दबडे",
+   "role": "माळी",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 22,
+   "name": "पिंकी येडप्पा मंडल",
+   "role": "सुरक्षा कर्मचारी [?]",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 23,
+   "name": "प्रिती पंढरीनाथ खांडेकर",
+   "role": "सुरक्षा कर्मचारी [?]",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 24,
+   "name": "वैभव सुरेश मोरे",
+   "role": "सुरक्षा कर्मचारी [?]",
+   "daysSigned": 23
+  },
+  {
+   "srNo": 25,
+   "name": "स्वाती राम पवार",
+   "role": "धोबी [?]",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 26,
+   "name": "अर्चना राजेश दुदम",
+   "role": "सफाई कर्मचारी",
+   "daysSigned": 15
+  },
+  {
+   "srNo": 27,
+   "name": "चंदा सुनिल मदने",
+   "role": "सफाई कर्मचारी [?]",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 28,
+   "name": "कोमल केशव कुरुडे [?]",
+   "role": "कर्मचारी [?]",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 29,
+   "name": "सोमनाथ हरि नरुटे",
+   "role": "मदतनीस",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 30,
+   "name": "अर्चना श्रीकांत कवडे",
+   "role": "[?]",
+   "daysSigned": 19
+  },
+  {
+   "srNo": 31,
+   "name": "विजया विष्णू शिंदे",
+   "role": "मदतनीस",
+   "daysSigned": 24
+  },
+  {
+   "srNo": 32,
+   "name": "सुरेखा शितल मेहला [?]",
+   "role": "मदतनीस",
+   "daysSigned": 23
+  }
+ ]
+}

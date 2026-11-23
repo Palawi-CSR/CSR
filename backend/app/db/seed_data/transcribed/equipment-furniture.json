@@ -1,0 +1,42 @@
+{
+ "note": "Transcribed from the handwritten register (page 2). Asset codes use regular digits for the Marathi numerals; values marked [?] were hard to read.",
+ "columns": [
+  {"key": "srNo", "en": "Sr.", "mr": "अनु. क्र."},
+  {"key": "item", "en": "Equipment / Item", "mr": "उपकरणाचे / वस्तूचे नाव"},
+  {"key": "assetNo", "en": "Asset No.", "mr": "प्रतिष्ठान / No."},
+  {"key": "inUseFrom", "en": "In use from", "mr": "वापरायला काढलेली दिनांक"},
+  {"key": "expiry", "en": "Expiry", "mr": "एक्सपायरी दिनांक"},
+  {"key": "maintenance", "en": "Maintenance date", "mr": "देखभाल दिनांक"},
+  {"key": "nextMaintenance", "en": "Next maintenance", "mr": "पुढील देखभाल तारीख"},
+  {"key": "condition", "en": "Current condition", "mr": "सध्याची परिस्थिती"}
+ ],
+ "rows": [
+  {"srNo": 1, "item": "Oxygen concentrator", "assetNo": "PHP/संजी/उप/01/22 [?]"},
+  {"srNo": 2, "item": "Digital BP apparatus", "assetNo": "PHP/संजी/उप/02/26", "inUseFrom": "06/03/26", "expiry": "05/03/31", "maintenance": "2/6/2026", "condition": "बिघडली आहे (दुरुस्तीसाठी दिली) – Damaged, sent for repair [?]"},
+  {"srNo": 3, "item": "Computer screen", "assetNo": "PHP/संजी/उप/03/21"},
+  {"srNo": 4, "item": "CPU", "assetNo": "PHP/संजी/उप/04/21"},
+  {"srNo": 5, "item": "Keyboard", "assetNo": "PHP/संजी/उप/05/21"},
+  {"srNo": 6, "item": "Mouse", "assetNo": "PHP/संजी/उप/06/21"},
+  {"srNo": 7, "item": "Scanner", "assetNo": "PHP/संजी/उप/07/21"},
+  {"srNo": 8, "item": "Walkie-talkie receiver", "assetNo": "PHP/संजी/उप/08/24 [?]"},
+  {"srNo": 9, "item": "Nebulizer", "assetNo": "PHP/संजी/उप/09/20 [?]"},
+  {"srNo": 10, "item": "Otoscope", "assetNo": "PHP/संजी/उप/10/24"},
+  {"srNo": 11, "item": "Stethoscope 01", "assetNo": "PHP/संजी/उप/11/18"},
+  {"srNo": 12, "item": "Stethoscope 02", "assetNo": "PHP/संजी/उप/12/18", "condition": "बिघडलेला आहे – Damaged"},
+  {"srNo": 13, "item": "Oxygen cylinder (metal)", "assetNo": "PHP/संजी/उप/13/10-16 [?]"},
+  {"srNo": 14, "item": "Oximeter", "assetNo": "PHP/संजी/उप/14/24"},
+  {"srNo": 15, "item": "Digital thermometer", "assetNo": "PHP/संजी/15/24"},
+  {"srNo": 16, "item": "Weighing machine (वजन काटा)", "assetNo": "PHP/संजी/16/20"},
+  {"srNo": 17, "item": "Thermometer (small / छोटा)", "assetNo": "PHP/संजी/17/22"},
+  {"srNo": 18, "item": "Baby weighing scale (लहान बाळांचा वजनकाटा)", "assetNo": "PHP/संजी/18/20"},
+  {"srNo": 19, "item": "Diamond BP machine", "assetNo": "PHP/संजी/19/26", "inUseFrom": "08/07/2026"},
+  {"srNo": 20, "item": "BP (blood pressure) machine", "assetNo": "PHP/संजी/20/26", "inUseFrom": "07/07/2026"},
+  {"srNo": 21, "item": "Nebulizer (handheld)", "assetNo": "PHP/संजी/21/26", "inUseFrom": "07/07/2026"},
+  {"srNo": 22, "item": "Blood sugar machine", "assetNo": "PHP/संजी/22/26", "inUseFrom": "07/07/2026"},
+  {"srNo": 23, "item": "Thermometer", "assetNo": "PHP/संजी/23/22"},
+  {"srNo": 24, "item": "Thermometer", "assetNo": "PHP/संजी/24/22", "condition": "चालू आहे – Working"},
+  {"srNo": 25, "item": "Thermometer", "assetNo": "PHP/संजी/25/22", "condition": "चालू आहे – Working"},
+  {"srNo": 26, "item": "Thermometer", "assetNo": "PHP/संजी/26/22", "condition": "चालू आहे – Working"},
+  {"srNo": 27, "item": "Thermometer", "assetNo": "PHP/संजी/27/22", "condition": "चालू आहे – Working"}
+ ]
+}

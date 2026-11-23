@@ -1,0 +1,740 @@
+{
+ "note": "This scan binds four Balgruh (बालगृह) kitchen registers for October 2026. The grain & stores stock sheet (page 1) is dense numeric data and is kept as scan only. Values marked [?] were hard to read.",
+ "tables": [
+  {
+   "title": "Menu (चव आहार)",
+   "titleMr": "चव आहार रजिस्टर",
+   "columns": [
+    {
+     "key": "date",
+     "en": "Date",
+     "mr": "दिनांक"
+    },
+    {
+     "key": "breakfast",
+     "en": "Breakfast",
+     "mr": "सकाळचा नाश्ता"
+    },
+    {
+     "key": "lunch",
+     "en": "Lunch",
+     "mr": "सकाळचे जेवण"
+    },
+    {
+     "key": "snack",
+     "en": "Afternoon snack",
+     "mr": "दुपारचा अल्पोपहार"
+    },
+    {
+     "key": "dinner",
+     "en": "Dinner",
+     "mr": "संध्याकाळचे जेवण"
+    },
+    {
+     "key": "residentSign",
+     "en": "Resident sign",
+     "mr": "प्रवेशित सही"
+    }
+   ],
+   "rows": [
+    {
+     "date": "17/10/26",
+     "breakfast": "कडधान्य उसळ",
+     "lunch": "गवार बटाटा रस्सा भाजी, पालक सुकी भाजी, भात, वरण, तूप, सॅलेड, मेतकूट",
+     "snack": "शेंगदाणा लाडू, सफरचंद",
+     "dinner": "सोयाबीन रस्सा भाजी, भाकरी, भात, वरण, तूप, सॅलेड, मेतकूट, प्रोटीन दूध",
+     "residentSign": "साक्षी [?]"
+    },
+    {
+     "date": "18/10/26",
+     "breakfast": "पोहे चिवडा [?]",
+     "lunch": "गवार बटाटा रस्सा भाजी, कोबी सुकी भाजी, चपाती, वरण, भात, सॅलेड, मेतकूट",
+     "snack": "राजगिरा चिक्की, सफरचंद",
+     "dinner": "मिक्स डाळ आमटी, भाकरी, भात, वरण, तूप, सॅलेड, मेतकूट, प्रोटीन दूध",
+     "residentSign": "अनन्या"
+    },
+    {
+     "date": "19/10/26",
+     "breakfast": "साबुदाणा खिचडी [?]",
+     "lunch": "मिक्स वेज भाजी, मिरची बेसन [?], चपाती, भात, वरण, तूप, मेतकूट, सॅलेड",
+     "snack": "शेंगदाणा लाडू, सफरचंद",
+     "dinner": "सोयाबीन भाजी, भाकरी, भात, वरण, तूप, सॅलेड, मेतकूट, प्रोटीन दूध",
+     "residentSign": "Kajal"
+    },
+    {
+     "date": "20/10/26",
+     "breakfast": "दलिया खीर [?]",
+     "lunch": "वांगे बटाटा भाजी, मसूर [?], सुकी भाजी, भात, वरण, तूप, चपाती, सॅलेड, मेतकूट",
+     "snack": "शेंगदाणा लाडू, केळी",
+     "dinner": "चवळी रस्सा भाजी, भाकरी, भात, वरण, तूप, मेतकूट, प्रोटीन दूध",
+     "residentSign": "कार्तिकी"
+    }
+   ]
+  },
+  {
+   "title": "Fruit & snack distribution",
+   "titleMr": "फळ वाटप नोंद वही",
+   "note": "Per resident per day; 30 residents.",
+   "columns": [
+    {
+     "key": "date",
+     "en": "Date",
+     "mr": "दिनांक"
+    },
+    {
+     "key": "residents",
+     "en": "Residents",
+     "mr": "प्रवेशित संख्या"
+    },
+    {
+     "key": "banana",
+     "en": "Banana",
+     "mr": "केळी"
+    },
+    {
+     "key": "apple",
+     "en": "Apple",
+     "mr": "सफरचंद"
+    },
+    {
+     "key": "guava",
+     "en": "Guava",
+     "mr": "पेरू"
+    },
+    {
+     "key": "rajgiraLadu",
+     "en": "Rajgira ladoo",
+     "mr": "राजगिरा लाडू"
+    },
+    {
+     "key": "peanutLadu",
+     "en": "Peanut ladoo",
+     "mr": "शेंगदाणा लाडू"
+    },
+    {
+     "key": "papaya",
+     "en": "Papaya",
+     "mr": "पपई"
+    },
+    {
+     "key": "rajgiraChikki",
+     "en": "Rajgira chikki",
+     "mr": "राजगिरा चिक्की"
+    },
+    {
+     "key": "peanutChikki",
+     "en": "Peanut chikki",
+     "mr": "शेंगदाणा चिक्की"
+    },
+    {
+     "key": "total",
+     "en": "Total (pcs)",
+     "mr": "एकूण नग"
+    }
+   ],
+   "rows": [
+    {
+     "date": "1/10/26",
+     "residents": 30,
+     "banana": "02",
+     "apple": "—",
+     "guava": "—",
+     "rajgiraLadu": "02",
+     "peanutLadu": "—",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 120
+    },
+    {
+     "date": "2/10/26",
+     "residents": 30,
+     "banana": "02",
+     "apple": "—",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "—",
+     "papaya": "—",
+     "rajgiraChikki": "02",
+     "peanutChikki": "—",
+     "total": 120
+    },
+    {
+     "date": "3/10/26",
+     "residents": 30,
+     "banana": "02",
+     "apple": "—",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "—",
+     "papaya": "—",
+     "rajgiraChikki": "02",
+     "peanutChikki": "—",
+     "total": 120
+    },
+    {
+     "date": "4/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "01",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "—",
+     "papaya": "—",
+     "rajgiraChikki": "02",
+     "peanutChikki": "—",
+     "total": 90
+    },
+    {
+     "date": "5/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "—",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "—",
+     "papaya": "02 फोडी",
+     "rajgiraChikki": "—",
+     "peanutChikki": "02",
+     "total": 60
+    },
+    {
+     "date": "6/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "—",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "02",
+     "papaya": "02 फोडी",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 60
+    },
+    {
+     "date": "7/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "—",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "02",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 60
+    },
+    {
+     "date": "8/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "01",
+     "guava": "—",
+     "rajgiraLadu": "02",
+     "peanutLadu": "—",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 90
+    },
+    {
+     "date": "9/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "01",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "02",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 90
+    },
+    {
+     "date": "10/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "01",
+     "guava": "—",
+     "rajgiraLadu": "02",
+     "peanutLadu": "—",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 90
+    },
+    {
+     "date": "11/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "01",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "—",
+     "papaya": "—",
+     "rajgiraChikki": "02",
+     "peanutChikki": "—",
+     "total": 90
+    },
+    {
+     "date": "12/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "—",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "—",
+     "papaya": "—",
+     "rajgiraChikki": "02",
+     "peanutChikki": "—",
+     "total": 60
+    },
+    {
+     "date": "13/10/26",
+     "residents": 30,
+     "banana": "02",
+     "apple": "—",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "02",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 120
+    },
+    {
+     "date": "14/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "01",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "02",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 90
+    },
+    {
+     "date": "15/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "01",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "02",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 90
+    },
+    {
+     "date": "16/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "01",
+     "guava": "—",
+     "rajgiraLadu": "02",
+     "peanutLadu": "—",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 90
+    },
+    {
+     "date": "17/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "01",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "02",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 90
+    },
+    {
+     "date": "18/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "01",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "—",
+     "papaya": "—",
+     "rajgiraChikki": "02",
+     "peanutChikki": "—",
+     "total": 90
+    },
+    {
+     "date": "19/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "01",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "02",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 90
+    },
+    {
+     "date": "20/10/26",
+     "residents": 30,
+     "banana": "02",
+     "apple": "—",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "02",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 120
+    },
+    {
+     "date": "21/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "01",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "02",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 90
+    },
+    {
+     "date": "22/10/26",
+     "residents": 30,
+     "banana": "01",
+     "apple": "—",
+     "guava": "—",
+     "rajgiraLadu": "—",
+     "peanutLadu": "—",
+     "papaya": "—",
+     "rajgiraChikki": "02",
+     "peanutChikki": "—",
+     "total": "90 [?]"
+    },
+    {
+     "date": "23/10/26",
+     "residents": 30,
+     "banana": "02",
+     "apple": "—",
+     "guava": "—",
+     "rajgiraLadu": "02",
+     "peanutLadu": "—",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 120
+    },
+    {
+     "date": "24/10/26",
+     "residents": 30,
+     "banana": "—",
+     "apple": "—",
+     "guava": "01",
+     "rajgiraLadu": "—",
+     "peanutLadu": "02",
+     "papaya": "—",
+     "rajgiraChikki": "—",
+     "peanutChikki": "—",
+     "total": 90
+    }
+   ]
+  },
+  {
+   "title": "Vegetable distribution",
+   "titleMr": "भाजी वाटप रजिस्टर",
+   "note": "Totals per day; see the scan for each vegetable.",
+   "columns": [
+    {
+     "key": "date",
+     "en": "Date",
+     "mr": "दिनांक"
+    },
+    {
+     "key": "residents",
+     "en": "Residents",
+     "mr": "प्रवेशित संख्या"
+    },
+    {
+     "key": "leafy",
+     "en": "Leafy veg (bunches)",
+     "mr": "पाले भाजी (पेंढ्या)"
+    },
+    {
+     "key": "fruitVeg",
+     "en": "Vegetables (kg)",
+     "mr": "फळ भाजी (kg)"
+    },
+    {
+     "key": "rootVeg",
+     "en": "Root veg (kg)",
+     "mr": "कंद भाजी (kg)"
+    },
+    {
+     "key": "masala",
+     "en": "Masala (g)",
+     "mr": "ओला मसाला (gm)"
+    },
+    {
+     "key": "onion",
+     "en": "Onion (kg)",
+     "mr": "कांदे"
+    },
+    {
+     "key": "note",
+     "en": "Note",
+     "mr": "शेरा"
+    }
+   ],
+   "rows": [
+    {
+     "date": "01/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "05",
+     "rootVeg": "10",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": ""
+    },
+    {
+     "date": "02/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "08",
+     "rootVeg": "15",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "मटार 06 [?]"
+    },
+    {
+     "date": "03/10/26",
+     "residents": 30,
+     "leafy": "15",
+     "fruitVeg": "09",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "पालक 10"
+    },
+    {
+     "date": "04/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "03",
+     "rootVeg": "15",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "शेवगा 08 नग"
+    },
+    {
+     "date": "05/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "11",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": ""
+    },
+    {
+     "date": "06/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "12",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "दोडका 08 [?]"
+    },
+    {
+     "date": "07/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "06",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": ""
+    },
+    {
+     "date": "08/10/26",
+     "residents": 30,
+     "leafy": "15",
+     "fruitVeg": "08",
+     "rootVeg": "15",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "शेपू 10, मटार 05"
+    },
+    {
+     "date": "09/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "13",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "सिमला 10 [?]"
+    },
+    {
+     "date": "10/10/26",
+     "residents": 30,
+     "leafy": "15",
+     "fruitVeg": "03",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "पालक 10, कारले 10 [?]"
+    },
+    {
+     "date": "11/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "13",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": ""
+    },
+    {
+     "date": "12/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "06",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "मटार 03"
+    },
+    {
+     "date": "13/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "11",
+     "rootVeg": "15",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": ""
+    },
+    {
+     "date": "14/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "16",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": ""
+    },
+    {
+     "date": "15/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "09",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "सिमला 02"
+    },
+    {
+     "date": "16/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "02",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "शेवगा 10 नग"
+    },
+    {
+     "date": "17/10/26",
+     "residents": 30,
+     "leafy": "15",
+     "fruitVeg": "08",
+     "rootVeg": "12 [?]",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "पालक 10, गवार 05"
+    },
+    {
+     "date": "18/10/26",
+     "residents": 30,
+     "leafy": "25 [?]",
+     "fruitVeg": "08",
+     "rootVeg": "12",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "गवार 05"
+    },
+    {
+     "date": "19/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "11",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "सिमला 02"
+    },
+    {
+     "date": "20/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "08",
+     "rootVeg": "12",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": ""
+    },
+    {
+     "date": "21/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "03",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "शेवगा 10 नग"
+    },
+    {
+     "date": "22/10/26",
+     "residents": 30,
+     "leafy": "05",
+     "fruitVeg": "09",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "सिमला 02"
+    },
+    {
+     "date": "23/10/26",
+     "residents": 30,
+     "leafy": "15 [?]",
+     "fruitVeg": "08",
+     "rootVeg": "12",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "शेपू 10, मटार 05"
+    },
+    {
+     "date": "24/10/26",
+     "residents": 30,
+     "leafy": "15",
+     "fruitVeg": "03",
+     "rootVeg": "07",
+     "masala": "600 (लसूण 100, अद्रक 200, खोबरा 300)",
+     "onion": "05",
+     "note": "पालक 10"
+    }
+   ]
+  }
+ ]
+}

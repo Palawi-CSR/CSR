@@ -1,0 +1,4848 @@
+{
+ "note": "औषधे व साहित्य जावक रजिस्टर (medicine & material outward), Apr 2025 – Nov 2026. Ditto marks (—\"—) are filled in from the row above. Values marked [?] were hard to read.",
+ "columns": [
+  {
+   "key": "srNo",
+   "en": "Sr.",
+   "mr": "अ. क्र."
+  },
+  {
+   "key": "page",
+   "en": "Page",
+   "mr": "पान"
+  },
+  {
+   "key": "date",
+   "en": "Date",
+   "mr": "दिनांक"
+  },
+  {
+   "key": "item",
+   "en": "Medicine / item",
+   "mr": "औषधे, गोळ्या व इतर साहित्य"
+  },
+  {
+   "key": "qty",
+   "en": "Qty",
+   "mr": "नग"
+  },
+  {
+   "key": "givenBy",
+   "en": "Given by",
+   "mr": "देणार सही"
+  },
+  {
+   "key": "receivedBy",
+   "en": "Received by / for",
+   "mr": "घेणार सही"
+  }
+ ],
+ "rows": [
+  {
+   "srNo": 1,
+   "page": 2,
+   "date": "1/4/2025",
+   "item": "अमृत रस",
+   "qty": "1 डबी",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 2,
+   "page": 2,
+   "date": "1/4/2025",
+   "item": "व्हॅसलीन",
+   "qty": "1 डबी",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 3,
+   "page": 2,
+   "date": "29/4/2025",
+   "item": "Tab - ATM 250 mg",
+   "qty": "1 strip",
+   "givenBy": "—",
+   "receivedBy": "मून"
+  },
+  {
+   "srNo": 4,
+   "page": 2,
+   "date": "4/5/2025 [?]",
+   "item": "बाटलीचे निप्पल (बेबी साठी)",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "कावेरी"
+  },
+  {
+   "srNo": 5,
+   "page": 2,
+   "date": "4/5/2025 [?]",
+   "item": "बाटलीचे निप्पल",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "कोमल जमदाडे [?]"
+  },
+  {
+   "srNo": 6,
+   "page": 2,
+   "date": "5/5/2025",
+   "item": "घड्याळ सेल (किचनसाठी)",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "माऊली"
+  },
+  {
+   "srNo": 7,
+   "page": 2,
+   "date": "5/5/2025 [?]",
+   "item": "Tab - Cetrizine (Okacet)",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मून"
+  },
+  {
+   "srNo": 8,
+   "page": 2,
+   "date": "5/5/2025 [?]",
+   "item": "Tab - Levocet-M",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मून"
+  },
+  {
+   "srNo": 9,
+   "page": 2,
+   "date": "5/5/2025 [?]",
+   "item": "Tab - Levocolk AD [?]",
+   "qty": "2 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "मून"
+  },
+  {
+   "srNo": 10,
+   "page": 2,
+   "date": "6/6/2025 [?]",
+   "item": "ORS powder",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 11,
+   "page": 2,
+   "date": "10/6/2025",
+   "item": "Tab - Oflocin [?]",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मून"
+  },
+  {
+   "srNo": 12,
+   "page": 2,
+   "date": "10/6/2025",
+   "item": "Tab - Maxirich",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मून"
+  },
+  {
+   "srNo": 13,
+   "page": 2,
+   "date": "10/6/2025",
+   "item": "Tab - Okacet (Cetrizine)",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मून"
+  },
+  {
+   "srNo": 14,
+   "page": 2,
+   "date": "10/6/2025",
+   "item": "Tab - Diclofenac",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मून"
+  },
+  {
+   "srNo": 15,
+   "page": 2,
+   "date": "10/6/2025",
+   "item": "Tab - Pan 40 mg",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मून"
+  },
+  {
+   "srNo": 16,
+   "page": 2,
+   "date": "10/6/2025",
+   "item": "Tab - Lopratex [?]",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मून"
+  },
+  {
+   "srNo": 17,
+   "page": 2,
+   "date": "15/6/2025",
+   "item": "कापूस (cotton)",
+   "qty": "—",
+   "givenBy": "Pinky",
+   "receivedBy": "ऋतुजा मम्मी"
+  },
+  {
+   "srNo": 18,
+   "page": 2,
+   "date": "15/6/2025",
+   "item": "डेटॉल (छोटी बाटली)",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "ऋतुजा मम्मी"
+  },
+  {
+   "srNo": 19,
+   "page": 2,
+   "date": "15/6/2025",
+   "item": "बँडेज",
+   "qty": "2",
+   "givenBy": "Pinky",
+   "receivedBy": "ऋतुजा मम्मी"
+  },
+  {
+   "srNo": 20,
+   "page": 2,
+   "date": "15/6/2025",
+   "item": "सोफ्रामायसिन क्रीम [?]",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "ऋतुजा मम्मी"
+  },
+  {
+   "srNo": 21,
+   "page": 2,
+   "date": "15/6/2025",
+   "item": "पावडर डबी",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "ऋतुजा मम्मी"
+  },
+  {
+   "srNo": 22,
+   "page": 2,
+   "date": "15/6/2025",
+   "item": "Tab - Cetrizine",
+   "qty": "8 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "ऋतुजा मम्मी"
+  },
+  {
+   "srNo": 23,
+   "page": 2,
+   "date": "15/6/2025",
+   "item": "Tab - Diclofenac",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "ऋतुजा मम्मी"
+  },
+  {
+   "srNo": 24,
+   "page": 2,
+   "date": "15/6/2025",
+   "item": "Tab - Cyclopam",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "ऋतुजा मम्मी"
+  },
+  {
+   "srNo": 25,
+   "page": 2,
+   "date": "15/6/2025",
+   "item": "Tab - Paracetamol",
+   "qty": "1 strip [?]",
+   "givenBy": "Pinky",
+   "receivedBy": "ऋतुजा मम्मी"
+  },
+  {
+   "srNo": 26,
+   "page": 2,
+   "date": "15/6/2025",
+   "item": "Tab - Lopratex [?]",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "ऋतुजा मम्मी"
+  },
+  {
+   "srNo": 27,
+   "page": 2,
+   "date": "15/6/2025",
+   "item": "Tab - Pan 40 mg",
+   "qty": "6 Tab [?]",
+   "givenBy": "Pinky",
+   "receivedBy": "ऋतुजा मम्मी"
+  },
+  {
+   "srNo": 28,
+   "page": 2,
+   "date": "16/6/25",
+   "item": "वॉकर (परत केले – returned)",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "ऋतुजा मम्मी"
+  },
+  {
+   "srNo": 29,
+   "page": 2,
+   "date": "17/6/25",
+   "item": "Tab - Paracetamol P650",
+   "qty": "3 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "सोना वहिनी / लीना वहिनी [?]"
+  },
+  {
+   "srNo": 30,
+   "page": 2,
+   "date": "18/6/25",
+   "item": "Tab - Combiflam",
+   "qty": "10 tab",
+   "givenBy": "Shahrukh [?]",
+   "receivedBy": "Mangalya [?]"
+  },
+  {
+   "srNo": 31,
+   "page": 2,
+   "date": "19/6/25",
+   "item": "बँडेज",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "पियुष"
+  },
+  {
+   "srNo": 32,
+   "page": 2,
+   "date": "19/6/25",
+   "item": "बँडेज",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोहन"
+  },
+  {
+   "srNo": 33,
+   "page": 2,
+   "date": "28/6/25",
+   "item": "धामुणी पावडर डबा [?]",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव दादा"
+  },
+  {
+   "srNo": 34,
+   "page": 2,
+   "date": "29/6/25",
+   "item": "अमृत रस",
+   "qty": "मोठी डबी (ART)",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 35,
+   "page": 2,
+   "date": "2/7/25",
+   "item": "Tab - Avosun [?]",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी (वरिष्ठांसाठी)"
+  },
+  {
+   "srNo": 36,
+   "page": 2,
+   "date": "5/7/25",
+   "item": "NS 100 ml",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 37,
+   "page": 2,
+   "date": "5/7/25",
+   "item": "DNS 500 ml",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 38,
+   "page": 2,
+   "date": "5/7/25",
+   "item": "IV set",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 39,
+   "page": 2,
+   "date": "5/7/25",
+   "item": "Scalp vein set",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 40,
+   "page": 2,
+   "date": "5/7/25",
+   "item": "Jelco",
+   "qty": "2",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 41,
+   "page": 2,
+   "date": "5/7/25",
+   "item": "Inj - Dynapar",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 42,
+   "page": 2,
+   "date": "5/7/25",
+   "item": "Inj - Pan-D",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 43,
+   "page": 2,
+   "date": "5/7/25",
+   "item": "Tab - Ofloxacin-OZ",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "अमृता (ज्ञानमंदिर)"
+  },
+  {
+   "srNo": 44,
+   "page": 2,
+   "date": "5/7/25",
+   "item": "Tab - Combiflam",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "अमृता (ज्ञानमंदिर)"
+  },
+  {
+   "srNo": 45,
+   "page": 2,
+   "date": "5/7/25",
+   "item": "Tab - Cyclopam",
+   "qty": "1 strip [?]",
+   "givenBy": "Pinky",
+   "receivedBy": "अमृता (ज्ञानमंदिर)"
+  },
+  {
+   "srNo": 46,
+   "page": 2,
+   "date": "5/7/25",
+   "item": "Tab - Diclofenac",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "अमृता (ज्ञानमंदिर)"
+  },
+  {
+   "srNo": 47,
+   "page": 2,
+   "date": "5/7/25",
+   "item": "Tab - Pan 40 mg",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "अमृता (ज्ञानमंदिर)"
+  },
+  {
+   "srNo": 48,
+   "page": 2,
+   "date": "5/7/25",
+   "item": "Tab - Medomol 650 mg",
+   "qty": "8 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "अमृता (ज्ञानमंदिर)"
+  },
+  {
+   "srNo": 49,
+   "page": 2,
+   "date": "5/7/25 [?]",
+   "item": "NS 100 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 50,
+   "page": 2,
+   "date": "5/7/25 [?]",
+   "item": "DNS 500 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 51,
+   "page": 2,
+   "date": "5/7/25 [?]",
+   "item": "Tab - Paracetamol 500",
+   "qty": "2 strips",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग [?]"
+  },
+  {
+   "srNo": 52,
+   "page": 2,
+   "date": "5/7/25 [?]",
+   "item": "Tab - Genmex-CV 625 [?]",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग [?]"
+  },
+  {
+   "srNo": 53,
+   "page": 2,
+   "date": "5/7/25 [?]",
+   "item": "Tab - Moxikind-CV 625",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग [?]"
+  },
+  {
+   "srNo": 54,
+   "page": 3,
+   "date": "4/7/2025 [?]",
+   "item": "NS 100 ml",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 55,
+   "page": 3,
+   "date": "4/7/2025 [?]",
+   "item": "DNS 500 ml",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 56,
+   "page": 3,
+   "date": "4/7/2025 [?]",
+   "item": "IV set",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 57,
+   "page": 3,
+   "date": "4/7/2025 [?]",
+   "item": "Scalp vein set",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 58,
+   "page": 3,
+   "date": "4/7/2025 [?]",
+   "item": "Inj - Dynapar",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 59,
+   "page": 3,
+   "date": "4/7/2025 [?]",
+   "item": "Inj - Pantoprazole",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 60,
+   "page": 3,
+   "date": "7/7/2025",
+   "item": "NS 100 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "तेजस दादा (टाकळी)"
+  },
+  {
+   "srNo": 61,
+   "page": 3,
+   "date": "7/7/2025",
+   "item": "DNS 500 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "तेजस दादा (टाकळी)"
+  },
+  {
+   "srNo": 62,
+   "page": 3,
+   "date": "25/7/2025",
+   "item": "Tab - Pan 40 mg",
+   "qty": "6 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 63,
+   "page": 3,
+   "date": "25/7/2025",
+   "item": "Tab - Cyclopam",
+   "qty": "6 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 64,
+   "page": 3,
+   "date": "25/7/2025",
+   "item": "Tab - Lomojet",
+   "qty": "6 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 65,
+   "page": 3,
+   "date": "26/7/2025",
+   "item": "DNS 500 ml",
+   "qty": "6 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 66,
+   "page": 3,
+   "date": "26/7/2025",
+   "item": "Inj - Ondansetron",
+   "qty": "6 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 67,
+   "page": 3,
+   "date": "26/7/2025",
+   "item": "Inj - Monocef",
+   "qty": "6 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 68,
+   "page": 3,
+   "date": "26/7/2025",
+   "item": "Inj - Genta 2 ml",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 69,
+   "page": 3,
+   "date": "26/7/2025",
+   "item": "IV set",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 70,
+   "page": 3,
+   "date": "26/7/2025",
+   "item": "Dispovan 5 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 71,
+   "page": 3,
+   "date": "4/8/2025",
+   "item": "वॉकर (पंढरपूर दिवसासाठी [?])",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "अत्री मामा [?]"
+  },
+  {
+   "srNo": 72,
+   "page": 3,
+   "date": "5/8/2025",
+   "item": "Syp - Albendazole",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Leena [?]"
+  },
+  {
+   "srNo": 73,
+   "page": 3,
+   "date": "5/8/2025",
+   "item": "Syp - Atarax",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Leena [?]"
+  },
+  {
+   "srNo": 74,
+   "page": 3,
+   "date": "7/8/2025 [?]",
+   "item": "Tab - Zerodol-SP",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "अत्री मामा [?]"
+  },
+  {
+   "srNo": 75,
+   "page": 3,
+   "date": "9/8/2025",
+   "item": "NS 500 ml",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मून (टाकळी)"
+  },
+  {
+   "srNo": 76,
+   "page": 3,
+   "date": "9/8/2025",
+   "item": "NS 100 ml",
+   "qty": "5 नग [?]",
+   "givenBy": "Pinky",
+   "receivedBy": "मून (टाकळी)"
+  },
+  {
+   "srNo": 77,
+   "page": 3,
+   "date": "9/8/2025",
+   "item": "NS 250 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मून (टाकळी)"
+  },
+  {
+   "srNo": 78,
+   "page": 3,
+   "date": "9/8/2025",
+   "item": "RL 500 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मून (टाकळी)"
+  },
+  {
+   "srNo": 79,
+   "page": 3,
+   "date": "9/8/2025",
+   "item": "DNS 500 ml",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मून (टाकळी)"
+  },
+  {
+   "srNo": 80,
+   "page": 3,
+   "date": "9/8/2025",
+   "item": "Dispovan 5 ml",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मून (टाकळी)"
+  },
+  {
+   "srNo": 81,
+   "page": 3,
+   "date": "9/8/2025",
+   "item": "IV set",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मून (टाकळी)"
+  },
+  {
+   "srNo": 82,
+   "page": 3,
+   "date": "9/8/2025",
+   "item": "Inj - Diclofenac",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मून (टाकळी)"
+  },
+  {
+   "srNo": 83,
+   "page": 3,
+   "date": "9/8/2025",
+   "item": "Inj - Pantoprazole",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मून (टाकळी)"
+  },
+  {
+   "srNo": 84,
+   "page": 3,
+   "date": "20/8/25",
+   "item": "Syp - Kofa AF [?]",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "प्रियंका [?]"
+  },
+  {
+   "srNo": 85,
+   "page": 3,
+   "date": "22/8/2025",
+   "item": "Tab - Paracetamol 500 mg",
+   "qty": "2 strips",
+   "givenBy": "Pinky",
+   "receivedBy": "तेजस भैया"
+  },
+  {
+   "srNo": 86,
+   "page": 3,
+   "date": "22/8/2025",
+   "item": "Cap - Omee-D",
+   "qty": "2 strips",
+   "givenBy": "Pinky",
+   "receivedBy": "तेजस भैया"
+  },
+  {
+   "srNo": 87,
+   "page": 3,
+   "date": "24/8/2025",
+   "item": "DNS 500 ml",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 88,
+   "page": 3,
+   "date": "24/8/2025",
+   "item": "NS 100 ml",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 89,
+   "page": 3,
+   "date": "24/8/2025",
+   "item": "Eldervit",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 90,
+   "page": 3,
+   "date": "24/8/2025",
+   "item": "Inj - Pantoprazole",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 91,
+   "page": 3,
+   "date": "24/8/2025",
+   "item": "Inj - Monocef",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 92,
+   "page": 3,
+   "date": "24/8/2025",
+   "item": "Inj - Diclofenac",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 93,
+   "page": 3,
+   "date": "24/8/2025",
+   "item": "IV set",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 94,
+   "page": 3,
+   "date": "24/8/2025",
+   "item": "Dispovan 5 ml",
+   "qty": "2",
+   "givenBy": "Pinky",
+   "receivedBy": "Tejas Dada (टाकळी)"
+  },
+  {
+   "srNo": 95,
+   "page": 3,
+   "date": "24/8/2025",
+   "item": "Tab - Combiflam",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 96,
+   "page": 3,
+   "date": "24/8/2025",
+   "item": "Syp - Paracip",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 97,
+   "page": 3,
+   "date": "24/8/2025",
+   "item": "Syp - Cetrizine",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 98,
+   "page": 3,
+   "date": "24/8/2025",
+   "item": "Tab - Cetrizine",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 99,
+   "page": 4,
+   "date": "23/9/2025",
+   "item": "DNS 500 ml",
+   "qty": "6",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 100,
+   "page": 4,
+   "date": "23/9/2025",
+   "item": "Inj - Monocef",
+   "qty": "6",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 101,
+   "page": 4,
+   "date": "23/9/2025",
+   "item": "Inj - Febrinil",
+   "qty": "6",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 102,
+   "page": 4,
+   "date": "23/9/2025",
+   "item": "IV set",
+   "qty": "4",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 103,
+   "page": 4,
+   "date": "23/9/2025",
+   "item": "(item not written)",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 104,
+   "page": 4,
+   "date": "23/9/2025",
+   "item": "Tab - ATM 250",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 105,
+   "page": 4,
+   "date": "23/9/2025",
+   "item": "Tab - Nimesulide",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 106,
+   "page": 4,
+   "date": "23/9/2025",
+   "item": "Tab - Pan 40 mg",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 107,
+   "page": 4,
+   "date": "3/10/2025 [?]",
+   "item": "Syp - Paracip",
+   "qty": "3 नग [?]",
+   "givenBy": "Pinky",
+   "receivedBy": "कोमल शिंदे (लक्ष्य साठी) [?]"
+  },
+  {
+   "srNo": 108,
+   "page": 4,
+   "date": "3/10/2025 [?]",
+   "item": "Syp - Atarax",
+   "qty": "4 नग [?]",
+   "givenBy": "Pinky",
+   "receivedBy": "कोमल शिंदे (लक्ष्य साठी) [?]"
+  },
+  {
+   "srNo": 109,
+   "page": 4,
+   "date": "6/10/2025",
+   "item": "Tab - Moxamox-CV 625 [?]",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 110,
+   "page": 4,
+   "date": "8/10/2025 [?]",
+   "item": "Syp - Paracip",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 111,
+   "page": 4,
+   "date": "8/10/2025 [?]",
+   "item": "Syp - Atarax",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 112,
+   "page": 4,
+   "date": "8/10/2025 [?]",
+   "item": "Syp - Ibugesic Plus",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 113,
+   "page": 4,
+   "date": "8/10/2025 [?]",
+   "item": "Syp - Cyclopam",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 114,
+   "page": 4,
+   "date": "8/10/2025 [?]",
+   "item": "Tab - Paracetamol",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 115,
+   "page": 4,
+   "date": "8/10/2025 [?]",
+   "item": "Tab - Pan 40 mg",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 116,
+   "page": 4,
+   "date": "2/11/2025",
+   "item": "Tab - Ibuprofen 400",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "तेजस दादा (टाकळी)"
+  },
+  {
+   "srNo": 117,
+   "page": 4,
+   "date": "2/11/2025",
+   "item": "Tab - Diclofenac",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "तेजस दादा (टाकळी)"
+  },
+  {
+   "srNo": 118,
+   "page": 4,
+   "date": "2/11/2025",
+   "item": "Tab - Azi 250 mg",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 119,
+   "page": 4,
+   "date": "10/11/2025",
+   "item": "Tab - Paracetamol 500 mg",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग"
+  },
+  {
+   "srNo": 120,
+   "page": 4,
+   "date": "10/11/2025",
+   "item": "Tab - Panta 40 mg",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग"
+  },
+  {
+   "srNo": 121,
+   "page": 4,
+   "date": "6/12/25",
+   "item": "Tab - Paracetamol 500",
+   "qty": "6 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 122,
+   "page": 4,
+   "date": "6/12/25",
+   "item": "Tab - Diclofenac",
+   "qty": "6 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 123,
+   "page": 4,
+   "date": "6/12/25",
+   "item": "Tab - Restyl 0.25 mg",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 124,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Tab - Cyclopam",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 125,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Tab - Paracetamol",
+   "qty": "—",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 126,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Song [?]",
+   "qty": "2 strips",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 127,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Tab - Aceclofenac-SP",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 128,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Tab - Cetrizine",
+   "qty": "2 strips",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 129,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Tab - Levocet-M",
+   "qty": "2 strips",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 130,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Tab - Pan 40 mg",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 131,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Tab - Ibuprofen",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 132,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Syp - Cyclopam",
+   "qty": "1 syp",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 133,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Citar [?]",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 134,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Syp - Paracip",
+   "qty": "1 syp",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 135,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Brozeet",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 136,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Syp - Ibugesic",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 137,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Syp - Ondansetron",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 138,
+   "page": 4,
+   "date": "20/12/25",
+   "item": "Syp - Sinarest",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 139,
+   "page": 4,
+   "date": "24/12/25",
+   "item": "Soliwax [?]",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन विभाग (वैभव दादा) [?]"
+  },
+  {
+   "srNo": 140,
+   "page": 4,
+   "date": "25/12/25",
+   "item": "Syp - Brozeet",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 141,
+   "page": 4,
+   "date": "25/12/25",
+   "item": "Syp - Tusur [?]",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 142,
+   "page": 4,
+   "date": "25/12/25",
+   "item": "Tab - Cetrizine",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मून (सिव्हिल)"
+  },
+  {
+   "srNo": 143,
+   "page": 4,
+   "date": "25/12/25",
+   "item": "Tab - Levocetrizine",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मून (सिव्हिल)"
+  },
+  {
+   "srNo": 144,
+   "page": 4,
+   "date": "30/12/25 [?]",
+   "item": "Cotton crepe bandage (पायाला बांधण्यासाठी)",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मून साठी"
+  },
+  {
+   "srNo": 145,
+   "page": 4,
+   "date": "30/12/25",
+   "item": "गोळ्या ठेवण्याचा डबा",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 146,
+   "page": 4,
+   "date": "31/12/25",
+   "item": "(unclear item – गोळ्या [?])",
+   "qty": "7 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "कॉटेज हॉस्पिटल"
+  },
+  {
+   "srNo": 147,
+   "page": 4,
+   "date": "1/1/2026",
+   "item": "Tab - Levocet-M",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मून"
+  },
+  {
+   "srNo": 148,
+   "page": 4,
+   "date": "1/1/2026",
+   "item": "Tab - Levocetrizine",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "मून"
+  },
+  {
+   "srNo": 149,
+   "page": 4,
+   "date": "2/01/2026",
+   "item": "Diclofenac spray",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "ज्ञानेश्वर [?]"
+  },
+  {
+   "srNo": 150,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Tab - Cetrizine",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 151,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Tab - Veba Plus [?]",
+   "qty": "3",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 152,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Tab - Bluvit [?]",
+   "qty": "5",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 153,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Tab - Aceclofenac-MR",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 154,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Tab - Somifiz [?]",
+   "qty": "5",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 155,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Tab - Levocet-M",
+   "qty": "2",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 156,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Tab - Paracetamol 500",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 157,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Tab - Alkem [?]",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 158,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Tab - Pyrigesic",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 159,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Tab - Cyclopam",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 160,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Tab - Ald 10 [?]",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 161,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Tab - Oncox DT [?]",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 162,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Cap - Omee-D",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 163,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Tab - Besiflem [?]",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 164,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Gel - Smilogel",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 165,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Drop - Ceflox-D [?]",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 166,
+   "page": 5,
+   "date": "29/01/2026",
+   "item": "Syp - Tusur 100N [?]",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 167,
+   "page": 5,
+   "date": "2/02/2026",
+   "item": "Syp - Atarax",
+   "qty": "2",
+   "givenBy": "Pinky",
+   "receivedBy": "कोमल शिंदे [?]"
+  },
+  {
+   "srNo": 168,
+   "page": 5,
+   "date": "3/02/2026 [?]",
+   "item": "Sticko band",
+   "qty": "6",
+   "givenBy": "शुभांगी [?]",
+   "receivedBy": "आई घाडगे [?]"
+  },
+  {
+   "srNo": 169,
+   "page": 5,
+   "date": "3/02/2026",
+   "item": "बाळाचे दुधाचे बॉटल",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "काजल आई [?]"
+  },
+  {
+   "srNo": 170,
+   "page": 5,
+   "date": "3/02/2026",
+   "item": "बाळाचे दुधाचे बॉटल",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "—"
+  },
+  {
+   "srNo": 171,
+   "page": 5,
+   "date": "3/02/2026",
+   "item": "बाळाचे दुधाचे बॉटल",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "—"
+  },
+  {
+   "srNo": 172,
+   "page": 5,
+   "date": "01/03/26 [?]",
+   "item": "NS 100 ml",
+   "qty": "2",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 173,
+   "page": 5,
+   "date": "01/03/26 [?]",
+   "item": "Dispovan 5 ml",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 174,
+   "page": 5,
+   "date": "01/03/26 [?]",
+   "item": "Inj - Vitcofol",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 175,
+   "page": 5,
+   "date": "01/03/26 [?]",
+   "item": "Inj - Ondansetron",
+   "qty": "—",
+   "givenBy": "Sutar",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 176,
+   "page": 5,
+   "date": "9/03/26 [?]",
+   "item": "दुधाची बाटली (पैसे दिले आहेत)",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "कावेरी कुंभार [?]"
+  },
+  {
+   "srNo": 177,
+   "page": 5,
+   "date": "10/03/26 [?]",
+   "item": "Syp - Morast-L [?]",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 178,
+   "page": 5,
+   "date": "12/03/26",
+   "item": "Syp - Skin Guard White [?]",
+   "qty": "1",
+   "givenBy": "Sutar",
+   "receivedBy": "अमृता आई"
+  },
+  {
+   "srNo": 179,
+   "page": 5,
+   "date": "13/03/26",
+   "item": "Tab - Restyl 0.25 mg",
+   "qty": "6 strips + 12 Tab [?]",
+   "givenBy": "Pinky",
+   "receivedBy": "डिंपल घाडगे"
+  },
+  {
+   "srNo": 180,
+   "page": 5,
+   "date": "14/03/26",
+   "item": "दुध बाटली",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "डिंपल घाडगे (कविता)"
+  },
+  {
+   "srNo": 181,
+   "page": 5,
+   "date": "15/03/26",
+   "item": "दुध बाटलीचे निप्पल",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "कविता"
+  },
+  {
+   "srNo": 182,
+   "page": 5,
+   "date": "15/03/26",
+   "item": "औषधाचे ड्रॉपर [?]",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "कविता"
+  },
+  {
+   "srNo": 183,
+   "page": 5,
+   "date": "16/03/26",
+   "item": "जेलको (पिवळे)",
+   "qty": "24",
+   "givenBy": "Pinky",
+   "receivedBy": "डिस्कार्ड [?]"
+  },
+  {
+   "srNo": 184,
+   "page": 5,
+   "date": "16/03/26",
+   "item": "जेलको (निळे / गुलाबी)",
+   "qty": "20",
+   "givenBy": "Pinky",
+   "receivedBy": "डिस्कार्ड [?]"
+  },
+  {
+   "srNo": 185,
+   "page": 5,
+   "date": "16/03/26",
+   "item": "सिरिंज",
+   "qty": "144",
+   "givenBy": "Pinky",
+   "receivedBy": "डिस्कार्ड [?]"
+  },
+  {
+   "srNo": 186,
+   "page": 5,
+   "date": "16/03/26",
+   "item": "Inj - Vitcofol",
+   "qty": "2",
+   "givenBy": "Pinky",
+   "receivedBy": "डिंपल घाडगे"
+  },
+  {
+   "srNo": 187,
+   "page": 5,
+   "date": "17/03/26",
+   "item": "Tab - Aceclofenac-SP",
+   "qty": "1 पॅक (10 tab)",
+   "givenBy": "Sutar",
+   "receivedBy": "डिंपल घाडगे"
+  },
+  {
+   "srNo": 188,
+   "page": 5,
+   "date": "17/03/26",
+   "item": "NS 100 ml",
+   "qty": "5 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वृषभ साठी [?]"
+  },
+  {
+   "srNo": 189,
+   "page": 5,
+   "date": "17/03/26",
+   "item": "IV set",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वृषभ साठी [?]"
+  },
+  {
+   "srNo": 190,
+   "page": 5,
+   "date": "17/03/26",
+   "item": "Dispovan 5 ml",
+   "qty": "6 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वृषभ साठी [?]"
+  },
+  {
+   "srNo": 191,
+   "page": 5,
+   "date": "17/03/26",
+   "item": "Inj - Pan 40 mg",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वृषभ साठी [?]"
+  },
+  {
+   "srNo": 192,
+   "page": 5,
+   "date": "17/03/26",
+   "item": "Inj - Emset [?]",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वृषभ साठी [?]"
+  },
+  {
+   "srNo": 193,
+   "page": 5,
+   "date": "17/03/26",
+   "item": "जेलको (पिवळा)",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वृषभ साठी [?]"
+  },
+  {
+   "srNo": 194,
+   "page": 5,
+   "date": "19/03/26",
+   "item": "DNS 500 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून) – डिंपल घाडगे"
+  },
+  {
+   "srNo": 195,
+   "page": 5,
+   "date": "19/03/26",
+   "item": "DNS 500 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून) – डिंपल घाडगे"
+  },
+  {
+   "srNo": 196,
+   "page": 5,
+   "date": "19/03/26",
+   "item": "NS 100 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून) – डिंपल घाडगे"
+  },
+  {
+   "srNo": 197,
+   "page": 5,
+   "date": "19/03/26",
+   "item": "RL 500 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून) – डिंपल घाडगे"
+  },
+  {
+   "srNo": 198,
+   "page": 5,
+   "date": "19/03/26",
+   "item": "Inj - Pan 40 mg",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून) – डिंपल घाडगे"
+  },
+  {
+   "srNo": 199,
+   "page": 5,
+   "date": "19/03/26",
+   "item": "Inj - Monocef 1000",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून) – डिंपल घाडगे"
+  },
+  {
+   "srNo": 200,
+   "page": 5,
+   "date": "19/03/26",
+   "item": "Inj - Diclofenac",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून) – डिंपल घाडगे"
+  },
+  {
+   "srNo": 201,
+   "page": 5,
+   "date": "19/03/26",
+   "item": "Inj - Multivitamin",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून) – डिंपल घाडगे"
+  },
+  {
+   "srNo": 202,
+   "page": 5,
+   "date": "19/03/26",
+   "item": "IV set",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून) – डिंपल घाडगे"
+  },
+  {
+   "srNo": 203,
+   "page": 5,
+   "date": "19/03/26",
+   "item": "Dispovan 5 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून) – डिंपल घाडगे"
+  },
+  {
+   "srNo": 204,
+   "page": 5,
+   "date": "19/03/26",
+   "item": "Dispovan 2 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून) – डिंपल घाडगे"
+  },
+  {
+   "srNo": 205,
+   "page": 5,
+   "date": "19/03/26",
+   "item": "जेलको (निळा)",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून) – डिंपल घाडगे"
+  },
+  {
+   "srNo": 206,
+   "page": 5,
+   "date": "21/03/26",
+   "item": "Moov spray",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 207,
+   "page": 6,
+   "date": "22/03/26",
+   "item": "Tab - Cyclopam",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 208,
+   "page": 6,
+   "date": "22/03/26",
+   "item": "Tab - Combiflam",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 209,
+   "page": 6,
+   "date": "22/03/26",
+   "item": "Tab - Paracetamol 500",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 210,
+   "page": 6,
+   "date": "22/03/26",
+   "item": "Tab - Sinarest",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 211,
+   "page": 6,
+   "date": "22/03/26",
+   "item": "Tab - Cetrizine",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 212,
+   "page": 6,
+   "date": "22/03/26",
+   "item": "Cap - Omee-D",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 213,
+   "page": 6,
+   "date": "23/03/26",
+   "item": "Tab - Levocet-M",
+   "qty": "10 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 214,
+   "page": 6,
+   "date": "23/03/26",
+   "item": "Syp - Sinarest",
+   "qty": "1 (75 ml)",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 215,
+   "page": 6,
+   "date": "24/03/26",
+   "item": "Bandage पट्टी",
+   "qty": "2 नग",
+   "givenBy": "Dr. Leena",
+   "receivedBy": "ओंकार पवार [?]"
+  },
+  {
+   "srNo": 216,
+   "page": 6,
+   "date": "23/03/26",
+   "item": "Syp - Sinarest",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "भक्ती (टाकळी) [?]"
+  },
+  {
+   "srNo": 217,
+   "page": 6,
+   "date": "23/03/26",
+   "item": "Syp - Ibugesic",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "भक्ती (टाकळी) [?]"
+  },
+  {
+   "srNo": 218,
+   "page": 6,
+   "date": "23/03/26",
+   "item": "Syp - Levocet-M",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "भक्ती (टाकळी) [?]"
+  },
+  {
+   "srNo": 219,
+   "page": 6,
+   "date": "23/03/26",
+   "item": "Syp - Multivitamin",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "भक्ती (टाकळी) [?]"
+  },
+  {
+   "srNo": 220,
+   "page": 6,
+   "date": "24/03/26",
+   "item": "Tab - Azithro 500 mg",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "डिंपल घाडगे"
+  },
+  {
+   "srNo": 221,
+   "page": 6,
+   "date": "24/03/26",
+   "item": "Tab - Cetrizine",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "डिंपल घाडगे"
+  },
+  {
+   "srNo": 222,
+   "page": 6,
+   "date": "24/03/26",
+   "item": "Tab - Levocetrizine",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "डिंपल घाडगे"
+  },
+  {
+   "srNo": 223,
+   "page": 6,
+   "date": "24/03/26",
+   "item": "गरम पाणी पिशवी (इलेक्ट्रिक)",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 224,
+   "page": 6,
+   "date": "25/03/26",
+   "item": "गरम पाणी पिशवी (इलेक्ट्रिक)",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "डिंपल घाडगे (टाकळी)"
+  },
+  {
+   "srNo": 225,
+   "page": 6,
+   "date": "25/03/26",
+   "item": "Soframycin cream",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 226,
+   "page": 6,
+   "date": "28/03/26",
+   "item": "घड्याळ सेल (मोठे)",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रिसेप्शन – शितल काकू [?]"
+  },
+  {
+   "srNo": 227,
+   "page": 6,
+   "date": "28/03/26",
+   "item": "सहाण (बाळगुटी)",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "कविता (मदतनीस) [?]"
+  },
+  {
+   "srNo": 228,
+   "page": 6,
+   "date": "30/03/26",
+   "item": "Syringe (5 ml, 10 ml)",
+   "qty": "1 नग",
+   "givenBy": "—",
+   "receivedBy": "निकिता वहिनी [?]"
+  },
+  {
+   "srNo": 229,
+   "page": 6,
+   "date": "31/03/26",
+   "item": "Tab - Zerodol-SP",
+   "qty": "6 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 230,
+   "page": 6,
+   "date": "31/03/26",
+   "item": "Tab - Lomovex [?]",
+   "qty": "1 नग (10 tab)",
+   "givenBy": "Sutar",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 231,
+   "page": 6,
+   "date": "31/03/26",
+   "item": "Tab - Paracetamol 500 mg",
+   "qty": "10 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 232,
+   "page": 6,
+   "date": "31/03/26",
+   "item": "Tab - Diclofenac",
+   "qty": "10 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 233,
+   "page": 6,
+   "date": "31/03/26",
+   "item": "बिटाडिन (थोडेसे)",
+   "qty": "—",
+   "givenBy": "Sutar",
+   "receivedBy": "Sutar"
+  },
+  {
+   "srNo": 234,
+   "page": 6,
+   "date": "2/04/26",
+   "item": "Tab - Zerodol-SP",
+   "qty": "6 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 235,
+   "page": 6,
+   "date": "11/04/26",
+   "item": "Tab - Zerodol-SP",
+   "qty": "10 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "मून (आई)"
+  },
+  {
+   "srNo": 236,
+   "page": 6,
+   "date": "11/04/26",
+   "item": "Tab - Oneclav 625",
+   "qty": "6 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "मून (आई)"
+  },
+  {
+   "srNo": 237,
+   "page": 6,
+   "date": "15/04/26",
+   "item": "दुध बाटली निप्पल",
+   "qty": "3 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "विजया काकू [?]"
+  },
+  {
+   "srNo": 238,
+   "page": 6,
+   "date": "16/04/26",
+   "item": "Eco-All liquid",
+   "qty": "3 नग",
+   "givenBy": "—",
+   "receivedBy": "दिले नाही (not given) [?]"
+  },
+  {
+   "srNo": 239,
+   "page": 6,
+   "date": "18/04/26",
+   "item": "Pantoprazole",
+   "qty": "3 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "मून (आई)"
+  },
+  {
+   "srNo": 240,
+   "page": 6,
+   "date": "18/04/26",
+   "item": "Cliniplast",
+   "qty": "3 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "मून (आई)"
+  },
+  {
+   "srNo": 241,
+   "page": 6,
+   "date": "18/04/26",
+   "item": "जेलको (निळा)",
+   "qty": "3 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "मून (आई)"
+  },
+  {
+   "srNo": 242,
+   "page": 6,
+   "date": "18/04/26",
+   "item": "सिरिंज 10 ml",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "मून (आई)"
+  },
+  {
+   "srNo": 243,
+   "page": 6,
+   "date": "20/04/26",
+   "item": "Syp - Paracip",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "टाकळी [?]"
+  },
+  {
+   "srNo": 244,
+   "page": 6,
+   "date": "20/04/26",
+   "item": "Syp - Meftal-P",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "टाकळी [?]"
+  },
+  {
+   "srNo": 245,
+   "page": 6,
+   "date": "20/04/26",
+   "item": "Tab - Nimesulide",
+   "qty": "2 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव मोरे"
+  },
+  {
+   "srNo": 246,
+   "page": 6,
+   "date": "21/04/26",
+   "item": "Tab - Zifi 200 DT",
+   "qty": "1 strip",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव मोरे"
+  },
+  {
+   "srNo": 247,
+   "page": 6,
+   "date": "22/04/26",
+   "item": "इलेक्ट्रिक गरम पाणी पिशवी",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव मोरे"
+  },
+  {
+   "srNo": 248,
+   "page": 6,
+   "date": "22/04/26",
+   "item": "Soframax",
+   "qty": "3 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 249,
+   "page": 7,
+   "date": "23/04/26",
+   "item": "Pantoprazole",
+   "qty": "2 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "मोरे सर"
+  },
+  {
+   "srNo": 250,
+   "page": 7,
+   "date": "23/04/26",
+   "item": "Sticko band (bandage पट्टी)",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "सोमनाथ"
+  },
+  {
+   "srNo": 251,
+   "page": 7,
+   "date": "23/04/26",
+   "item": "Bandage (पट्टी)",
+   "qty": "1 नग",
+   "givenBy": "Diksha [?]",
+   "receivedBy": "तृप्ती [?]"
+  },
+  {
+   "srNo": 252,
+   "page": 7,
+   "date": "23/04/26",
+   "item": "Bandage (पट्टी)",
+   "qty": "1 नग",
+   "givenBy": "Diksha [?]",
+   "receivedBy": "रोहन [?]"
+  },
+  {
+   "srNo": 253,
+   "page": 7,
+   "date": "23/04/26",
+   "item": "DNS 500 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 254,
+   "page": 7,
+   "date": "23/04/26",
+   "item": "NS 100 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 255,
+   "page": 7,
+   "date": "23/04/26",
+   "item": "Inj - Eldervit",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 256,
+   "page": 7,
+   "date": "23/04/26",
+   "item": "Dispovan 5 ml",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 257,
+   "page": 7,
+   "date": "23/04/26",
+   "item": "Dispovan 10 ml",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 258,
+   "page": 7,
+   "date": "23/04/26",
+   "item": "IV set",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 259,
+   "page": 7,
+   "date": "23/04/26",
+   "item": "Volex [?]",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 260,
+   "page": 7,
+   "date": "23/04/26",
+   "item": "Cliniplast",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 261,
+   "page": 7,
+   "date": "25/04/26",
+   "item": "ZL (A) – ART",
+   "qty": "20 गोळ्या",
+   "givenBy": "Pinky",
+   "receivedBy": "कृष्णा कुमार [?]"
+  },
+  {
+   "srNo": 262,
+   "page": 7,
+   "date": "25/04/26",
+   "item": "DTG – ART",
+   "qty": "10 गोळ्या",
+   "givenBy": "Pinky",
+   "receivedBy": "कृष्णा कुमार [?]"
+  },
+  {
+   "srNo": 263,
+   "page": 7,
+   "date": "29/04/26",
+   "item": "Tab - Fluconazole",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 264,
+   "page": 7,
+   "date": "29/04/26",
+   "item": "Cap - Evion 400",
+   "qty": "10 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 265,
+   "page": 7,
+   "date": "7/04/26 [?]",
+   "item": "Tab - Paracetamol 500",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "Ruteja Shah [?]"
+  },
+  {
+   "srNo": 266,
+   "page": 7,
+   "date": "7/04/26 [?]",
+   "item": "Tab - Spasmril [?]",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "Ruteja Shah [?]"
+  },
+  {
+   "srNo": 267,
+   "page": 7,
+   "date": "7/04/26 [?]",
+   "item": "Tab - Cetrizine",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "Ruteja Shah [?]"
+  },
+  {
+   "srNo": 268,
+   "page": 7,
+   "date": "7/04/26 [?]",
+   "item": "Tab - Lom-D [?]",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "Ruteja Shah [?]"
+  },
+  {
+   "srNo": 269,
+   "page": 7,
+   "date": "7/04/26 [?]",
+   "item": "Tab - Nicip Cold & Flu",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "Ruteja Shah [?]"
+  },
+  {
+   "srNo": 270,
+   "page": 7,
+   "date": "7/04/26 [?]",
+   "item": "Tab - Rzole-DSR 20 mg",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "Ruteja Shah [?]"
+  },
+  {
+   "srNo": 271,
+   "page": 7,
+   "date": "7/04/26 [?]",
+   "item": "Cotton 35 g bundle",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Ruteja Shah [?]"
+  },
+  {
+   "srNo": 272,
+   "page": 7,
+   "date": "7/04/26 [?]",
+   "item": "Hydrogen peroxide 25 ml",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Ruteja Shah [?]"
+  },
+  {
+   "srNo": 273,
+   "page": 7,
+   "date": "7/04/26 [?]",
+   "item": "Sofracare [?]",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Ruteja Shah [?]"
+  },
+  {
+   "srNo": 274,
+   "page": 7,
+   "date": "7/04/26 [?]",
+   "item": "डेटॉल 100 ml बाटली",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Ruteja Shah [?]"
+  },
+  {
+   "srNo": 275,
+   "page": 7,
+   "date": "7/04/26 [?]",
+   "item": "Bandage",
+   "qty": "10 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Ruteja Shah [?]"
+  },
+  {
+   "srNo": 276,
+   "page": 7,
+   "date": "12/5/2026",
+   "item": "Tab - Rzole-DSR",
+   "qty": "10 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "प्रज्ञा [?]"
+  },
+  {
+   "srNo": 277,
+   "page": 7,
+   "date": "12/5/2026",
+   "item": "Tab - Fericip XT",
+   "qty": "10 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "प्रेरणा [?]"
+  },
+  {
+   "srNo": 278,
+   "page": 7,
+   "date": "13/5/2026",
+   "item": "Tab - Cyclopam",
+   "qty": "2 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "सोमनाथ"
+  },
+  {
+   "srNo": 279,
+   "page": 7,
+   "date": "13/5/2026",
+   "item": "Tab - O2",
+   "qty": "2 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "सोमनाथ"
+  },
+  {
+   "srNo": 280,
+   "page": 7,
+   "date": "19/5/2026",
+   "item": "दुध बाटली",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "आदिनाथ साठी"
+  },
+  {
+   "srNo": 281,
+   "page": 7,
+   "date": "19/5/2026",
+   "item": "Tab - Cetrizine",
+   "qty": "2 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 282,
+   "page": 7,
+   "date": "19/5/2026",
+   "item": "Tab - Paracetamol 500",
+   "qty": "1 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 283,
+   "page": 7,
+   "date": "22/5/2026",
+   "item": "दुध बाटली",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "कावेरी (बाळासाठी) [?]"
+  },
+  {
+   "srNo": 284,
+   "page": 7,
+   "date": "26/5/2026",
+   "item": "Tab - Etocad 400 mg [?]",
+   "qty": "10 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 285,
+   "page": 7,
+   "date": "27/5/2026",
+   "item": "Cap - B-complex",
+   "qty": "6 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "दिनेश पवार"
+  },
+  {
+   "srNo": 286,
+   "page": 7,
+   "date": "28/5/2026",
+   "item": "Eco-All [?]",
+   "qty": "6 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 287,
+   "page": 7,
+   "date": "29/5/2026",
+   "item": "Orocef gel [?]",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "दिनेश पवार"
+  },
+  {
+   "srNo": 288,
+   "page": 7,
+   "date": "02/06/2026",
+   "item": "Hand gloves",
+   "qty": "1 मोठे पूर्ण बॉक्स",
+   "givenBy": "Kajal (नाजुका)",
+   "receivedBy": "सुमन – बडे साठी [?]"
+  },
+  {
+   "srNo": 289,
+   "page": 7,
+   "date": "02/06/2026",
+   "item": "कडुलिंब तेल",
+   "qty": "—",
+   "givenBy": "Kajal (नाजुका)",
+   "receivedBy": "कार्तिकीकडे तेल परत दिले [?]"
+  },
+  {
+   "srNo": 290,
+   "page": 7,
+   "date": "3/6/2026",
+   "item": "Tab - Nicip Cold",
+   "qty": "3 Tab",
+   "givenBy": "Sutar (मोरे सर)",
+   "receivedBy": "संतोष पवार [?]"
+  },
+  {
+   "srNo": 291,
+   "page": 7,
+   "date": "3/6/2026",
+   "item": "Tab - Azithromycin",
+   "qty": "3 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "संतोष पवार [?]"
+  },
+  {
+   "srNo": 292,
+   "page": 7,
+   "date": "4/6/2026",
+   "item": "Tab - Restyl 0.25 mg",
+   "qty": "28 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "मून (आई)"
+  },
+  {
+   "srNo": 293,
+   "page": 7,
+   "date": "4/6/2026",
+   "item": "IV set",
+   "qty": "4 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 294,
+   "page": 7,
+   "date": "4/6/2026",
+   "item": "Inj - Emset",
+   "qty": "4",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 295,
+   "page": 7,
+   "date": "4/6/2026",
+   "item": "Inj - Pan",
+   "qty": "4 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 296,
+   "page": 7,
+   "date": "4/6/2026",
+   "item": "NS 100 ml",
+   "qty": "8",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 297,
+   "page": 7,
+   "date": "4/6/2026",
+   "item": "DNS 500 ml",
+   "qty": "4",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 298,
+   "page": 7,
+   "date": "4/6/2026",
+   "item": "Inj - Paracetamol",
+   "qty": "5 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 299,
+   "page": 7,
+   "date": "4/6/2026",
+   "item": "Jelco",
+   "qty": "4",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 300,
+   "page": 7,
+   "date": "4/6/2026",
+   "item": "Syringe 10 ml",
+   "qty": "4",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 301,
+   "page": 7,
+   "date": "4/6/2026",
+   "item": "Syringe 5 ml",
+   "qty": "4",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 302,
+   "page": 7,
+   "date": "4/6/2026",
+   "item": "Dynaplast",
+   "qty": "1",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 303,
+   "page": 7,
+   "date": "6/6/2026",
+   "item": "Inj - Eldervit",
+   "qty": "4",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना ताई"
+  },
+  {
+   "srNo": 304,
+   "page": 7,
+   "date": "11/6/2026",
+   "item": "Paracetamol 650 mg",
+   "qty": "15 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "डॉ. लीना ताई"
+  },
+  {
+   "srNo": 305,
+   "page": 7,
+   "date": "15/6/2026",
+   "item": "Beuref [?]",
+   "qty": "1",
+   "givenBy": "Sutar",
+   "receivedBy": "PHP ऑफिस [?]"
+  },
+  {
+   "srNo": 306,
+   "page": 7,
+   "date": "16/6/2026",
+   "item": "Tricaine (MPS)",
+   "qty": "1",
+   "givenBy": "Sutar",
+   "receivedBy": "आकाश भैया"
+  },
+  {
+   "srNo": 307,
+   "page": 7,
+   "date": "16/6/2026",
+   "item": "Soframax",
+   "qty": "1",
+   "givenBy": "Sutar",
+   "receivedBy": "आकाश भैया"
+  },
+  {
+   "srNo": 308,
+   "page": 7,
+   "date": "16/6/2026",
+   "item": "Rzole-DSR",
+   "qty": "10 Tab [?]",
+   "givenBy": "Sutar",
+   "receivedBy": "आकाश भैया"
+  },
+  {
+   "srNo": 309,
+   "page": 8,
+   "date": "16/6/2026",
+   "item": "Tab - Amoxclav 625 mg",
+   "qty": "6 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव मोरे"
+  },
+  {
+   "srNo": 310,
+   "page": 8,
+   "date": "18/6/2026",
+   "item": "Tab - Nicip Cold",
+   "qty": "6 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "Raju Bisrat [?]"
+  },
+  {
+   "srNo": 311,
+   "page": 8,
+   "date": "18/6/26",
+   "item": "Syringe 50 ml",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 312,
+   "page": 8,
+   "date": "21/6/26",
+   "item": "Inj - Eldervit",
+   "qty": "5 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "तेजस भैया"
+  },
+  {
+   "srNo": 313,
+   "page": 8,
+   "date": "21/6/26",
+   "item": "NS 100 ml",
+   "qty": "6 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "तेजस भैया"
+  },
+  {
+   "srNo": 314,
+   "page": 8,
+   "date": "21/6/26",
+   "item": "DNS 500 ml",
+   "qty": "6 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "तेजस भैया"
+  },
+  {
+   "srNo": 315,
+   "page": 8,
+   "date": "21/6/26",
+   "item": "Blue jelco",
+   "qty": "6 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "तेजस भैया"
+  },
+  {
+   "srNo": 316,
+   "page": 8,
+   "date": "21/6/26",
+   "item": "IV set",
+   "qty": "6 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "तेजस भैया"
+  },
+  {
+   "srNo": 317,
+   "page": 8,
+   "date": "21/6/26",
+   "item": "Inj - Pantoprazole",
+   "qty": "6 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "तेजस भैया"
+  },
+  {
+   "srNo": 318,
+   "page": 8,
+   "date": "21/6/26",
+   "item": "Syringe 10 ml",
+   "qty": "10 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "तेजस भैया"
+  },
+  {
+   "srNo": 319,
+   "page": 8,
+   "date": "21/6/26",
+   "item": "Syringe 5 ml",
+   "qty": "10 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "तेजस भैया"
+  },
+  {
+   "srNo": 320,
+   "page": 8,
+   "date": "21/6/26",
+   "item": "Dynaplast",
+   "qty": "2 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "तेजस भैया"
+  },
+  {
+   "srNo": 321,
+   "page": 8,
+   "date": "22/06/26",
+   "item": "Prohance-HP High Protein 400 g (डबा)",
+   "qty": "1",
+   "givenBy": "Sutar",
+   "receivedBy": "डिंपल घाडगे"
+  },
+  {
+   "srNo": 322,
+   "page": 8,
+   "date": "23/06/26",
+   "item": "(unclear item) [?]",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "निकिता वहिनी [?]"
+  },
+  {
+   "srNo": 323,
+   "page": 8,
+   "date": "23/6/26",
+   "item": "IV set",
+   "qty": "1",
+   "givenBy": "—",
+   "receivedBy": "राजश्री कांबळे [?]"
+  },
+  {
+   "srNo": 324,
+   "page": 8,
+   "date": "23/6/26",
+   "item": "Syringe 5 ml",
+   "qty": "1",
+   "givenBy": "Sutar",
+   "receivedBy": "राजश्री कांबळे [?]"
+  },
+  {
+   "srNo": 325,
+   "page": 8,
+   "date": "23/6/26",
+   "item": "NS 100 ml",
+   "qty": "1",
+   "givenBy": "—",
+   "receivedBy": "राजश्री कांबळे [?]"
+  },
+  {
+   "srNo": 326,
+   "page": 8,
+   "date": "23/6/26",
+   "item": "Inj - Ondem",
+   "qty": "1",
+   "givenBy": "—",
+   "receivedBy": "राजश्री कांबळे [?]"
+  },
+  {
+   "srNo": 327,
+   "page": 8,
+   "date": "23/6/26",
+   "item": "NS 250 ml",
+   "qty": "1",
+   "givenBy": "—",
+   "receivedBy": "राजश्री कांबळे [?]"
+  },
+  {
+   "srNo": 328,
+   "page": 8,
+   "date": "27/6/2026",
+   "item": "Hand gloves",
+   "qty": "1 जोडी",
+   "givenBy": "Kajal (नाजुका)",
+   "receivedBy": "सुमन [?]"
+  },
+  {
+   "srNo": 329,
+   "page": 8,
+   "date": "27/6/2026",
+   "item": "Tab - Restyl 0.25 mg",
+   "qty": "90 Tab [?]",
+   "givenBy": "Sutar",
+   "receivedBy": "डिंपल घाडगे"
+  },
+  {
+   "srNo": 330,
+   "page": 8,
+   "date": "29/6/2026",
+   "item": "Moov spray",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 331,
+   "page": 8,
+   "date": "29/6/26",
+   "item": "इलेक्ट्रिक गरम पाणी पिशवी (1/7/26 परत मिळाली)",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "ऋतुजा ताई [?]"
+  },
+  {
+   "srNo": 332,
+   "page": 8,
+   "date": "04/07/26",
+   "item": "सेल (cell) – घड्याळासाठी",
+   "qty": "1 नग",
+   "givenBy": "Kajal",
+   "receivedBy": "गोशाळेसाठी"
+  },
+  {
+   "srNo": 333,
+   "page": 8,
+   "date": "04/7/2026",
+   "item": "Tab - Paracetamol",
+   "qty": "10 Tab",
+   "givenBy": "Kajal",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 334,
+   "page": 8,
+   "date": "7/7/2026",
+   "item": "Tab - Sizodon LS",
+   "qty": "10 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 335,
+   "page": 8,
+   "date": "9/7/2026",
+   "item": "DNS 500 ml",
+   "qty": "2 नग",
+   "givenBy": "—",
+   "receivedBy": "प्रिती ताई [?]"
+  },
+  {
+   "srNo": 336,
+   "page": 8,
+   "date": "9/7/2026",
+   "item": "Blue jelco",
+   "qty": "2 नग",
+   "givenBy": "—",
+   "receivedBy": "प्रिती ताई [?]"
+  },
+  {
+   "srNo": 337,
+   "page": 8,
+   "date": "9/7/2026",
+   "item": "NS 100 ml",
+   "qty": "6 नग",
+   "givenBy": "—",
+   "receivedBy": "प्रिती ताई [?]"
+  },
+  {
+   "srNo": 338,
+   "page": 8,
+   "date": "9/7/2026",
+   "item": "Inj - Pantoprazole",
+   "qty": "6 नग",
+   "givenBy": "—",
+   "receivedBy": "प्रिती ताई [?]"
+  },
+  {
+   "srNo": 339,
+   "page": 8,
+   "date": "9/7/2026",
+   "item": "IV set",
+   "qty": "2 नग",
+   "givenBy": "—",
+   "receivedBy": "प्रिती ताई [?]"
+  },
+  {
+   "srNo": 340,
+   "page": 8,
+   "date": "9/7/2026",
+   "item": "Syringe 10 ml",
+   "qty": "10 नग",
+   "givenBy": "—",
+   "receivedBy": "प्रिती ताई [?]"
+  },
+  {
+   "srNo": 341,
+   "page": 8,
+   "date": "9/7/2026",
+   "item": "Syringe 10 ml",
+   "qty": "10 नग",
+   "givenBy": "—",
+   "receivedBy": "प्रिती ताई [?]"
+  },
+  {
+   "srNo": 342,
+   "page": 8,
+   "date": "9/7/2026",
+   "item": "Dynaplast",
+   "qty": "1 नग",
+   "givenBy": "—",
+   "receivedBy": "प्रिती ताई [?]"
+  },
+  {
+   "srNo": 343,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "सलाईन स्टँड",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य [?] (परत दिले)"
+  },
+  {
+   "srNo": 344,
+   "page": 8,
+   "date": "09/7/26",
+   "item": "Blood pressure apparatus",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य [?]"
+  },
+  {
+   "srNo": 345,
+   "page": 8,
+   "date": "09/7/26",
+   "item": "ऑक्सीमीटर",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य [?]"
+  },
+  {
+   "srNo": 346,
+   "page": 8,
+   "date": "09/7/26",
+   "item": "स्टेथोस्कोप + डिजिटल थर्मामीटर",
+   "qty": "1 + 1",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य [?]"
+  },
+  {
+   "srNo": 347,
+   "page": 8,
+   "date": "09/7/26",
+   "item": "Blood pressure monitor",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य [?]"
+  },
+  {
+   "srNo": 348,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "Inj - Ondansetron",
+   "qty": "5 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य / बडे साठी [?]"
+  },
+  {
+   "srNo": 349,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "Inj - Pantoprazole",
+   "qty": "5 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य / बडे साठी [?]"
+  },
+  {
+   "srNo": 350,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "Inj - Monocef",
+   "qty": "5 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य / बडे साठी [?]"
+  },
+  {
+   "srNo": 351,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "Inj - Eldervit",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य / बडे साठी [?]"
+  },
+  {
+   "srNo": 352,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "Inj - Febrinil",
+   "qty": "5 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य / बडे साठी [?]"
+  },
+  {
+   "srNo": 353,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "DNS 500 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य / बडे साठी [?]"
+  },
+  {
+   "srNo": 354,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "NS 500 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य / बडे साठी [?]"
+  },
+  {
+   "srNo": 355,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "NS 100 ml",
+   "qty": "5 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य / बडे साठी [?]"
+  },
+  {
+   "srNo": 356,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "DNS 250 ml",
+   "qty": "8 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य / बडे साठी [?]"
+  },
+  {
+   "srNo": 357,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "IV set",
+   "qty": "6 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य / बडे साठी [?]"
+  },
+  {
+   "srNo": 358,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "Dispovan 5 ml",
+   "qty": "8 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य / बडे साठी [?]"
+  },
+  {
+   "srNo": 359,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "Dispovan 2 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य / बडे साठी [?]"
+  },
+  {
+   "srNo": 360,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "Dispovan 10 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मांगल्य / बडे साठी [?]"
+  },
+  {
+   "srNo": 361,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "NS 100 ml",
+   "qty": "5 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 362,
+   "page": 8,
+   "date": "10/7/26",
+   "item": "NS 250 ml",
+   "qty": "5 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 363,
+   "page": 8,
+   "date": "12/7/26",
+   "item": "Inj - Pantoprazole",
+   "qty": "5 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "टाकळी (तेजस भैया)"
+  },
+  {
+   "srNo": 364,
+   "page": 8,
+   "date": "12/7/26",
+   "item": "NS 100 ml",
+   "qty": "5 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "टाकळी (तेजस भैया)"
+  },
+  {
+   "srNo": 365,
+   "page": 8,
+   "date": "12/7/26",
+   "item": "ARR-VP 10 commode chair",
+   "qty": "1 नग",
+   "givenBy": "—",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 366,
+   "page": 8,
+   "date": "12/7/26",
+   "item": "Anti-attendant BR WH chair [?]",
+   "qty": "1 नग",
+   "givenBy": "—",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 367,
+   "page": 8,
+   "date": "15/7/26",
+   "item": "DNS 500 ml",
+   "qty": "6 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 368,
+   "page": 8,
+   "date": "15/7/26",
+   "item": "NS 100 ml",
+   "qty": "6 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 369,
+   "page": 8,
+   "date": "15/7/26",
+   "item": "Blue jelco",
+   "qty": "6 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 370,
+   "page": 8,
+   "date": "15/7/26",
+   "item": "IV set",
+   "qty": "6 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 371,
+   "page": 8,
+   "date": "15/7/26",
+   "item": "Dispovan 10 ml",
+   "qty": "6 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 372,
+   "page": 8,
+   "date": "15/7/26",
+   "item": "Dispovan 5 ml",
+   "qty": "6 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 373,
+   "page": 8,
+   "date": "15/7/26",
+   "item": "Inj - Pantoprazole",
+   "qty": "6 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 374,
+   "page": 8,
+   "date": "15/7/26",
+   "item": "Dynaplast",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी"
+  },
+  {
+   "srNo": 375,
+   "page": 9,
+   "date": "16/07/26",
+   "item": "Hand wash (Santoor)",
+   "qty": "1 नग",
+   "givenBy": "Kajal",
+   "receivedBy": "किचनसाठी [?]"
+  },
+  {
+   "srNo": 376,
+   "page": 9,
+   "date": "17/07/26",
+   "item": "वजन काटा",
+   "qty": "1 नग",
+   "givenBy": "Kajal",
+   "receivedBy": "पल्लवीकडे दिले [?]"
+  },
+  {
+   "srNo": 377,
+   "page": 9,
+   "date": "19/07/26",
+   "item": "Smilo-gel CT",
+   "qty": "1",
+   "givenBy": "Kajal",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 378,
+   "page": 9,
+   "date": "19/07/26",
+   "item": "Tab - ART (TLD)",
+   "qty": "1 डबी",
+   "givenBy": "Pinky",
+   "receivedBy": "राजश्री कांबळे"
+  },
+  {
+   "srNo": 379,
+   "page": 9,
+   "date": "19/07/26",
+   "item": "Tab - ART (TLD)",
+   "qty": "1 डबी",
+   "givenBy": "Pinky",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 380,
+   "page": 9,
+   "date": "20/7/26",
+   "item": "Tab - ART (TLD)",
+   "qty": "1 डबी",
+   "givenBy": "Sutar",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 381,
+   "page": 9,
+   "date": "20/7/26",
+   "item": "Tab - Rzole-DSR",
+   "qty": "3 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "शितल [?]"
+  },
+  {
+   "srNo": 382,
+   "page": 9,
+   "date": "20/7/26",
+   "item": "Tab - Oneclav 625 mg",
+   "qty": "6 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "शितल [?]"
+  },
+  {
+   "srNo": 383,
+   "page": 9,
+   "date": "20/7/26",
+   "item": "Tab - Xanfenac-SP",
+   "qty": "6 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "शितल [?]"
+  },
+  {
+   "srNo": 384,
+   "page": 9,
+   "date": "23/7/26",
+   "item": "Tab - ART (TLD)",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "अर्चना [?]"
+  },
+  {
+   "srNo": 385,
+   "page": 9,
+   "date": "23/7/26",
+   "item": "दुध बॉटलचे निप्पल",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "कावेरी [?]"
+  },
+  {
+   "srNo": 386,
+   "page": 9,
+   "date": "23/7/26",
+   "item": "Tab - Orofist 2XT [?]",
+   "qty": "10 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "विद्या पाटील [?]"
+  },
+  {
+   "srNo": 387,
+   "page": 9,
+   "date": "23/7/26",
+   "item": "BP apparatus",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन – कोमल [?]"
+  },
+  {
+   "srNo": 388,
+   "page": 9,
+   "date": "23/7/26",
+   "item": "स्टेथोस्कोप",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "मातृवन – कोमल [?]"
+  },
+  {
+   "srNo": 389,
+   "page": 9,
+   "date": "24/7/26",
+   "item": "Tab - Restyl 0.25 mg",
+   "qty": "150 Tab [?]",
+   "givenBy": "Sutar",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 390,
+   "page": 9,
+   "date": "24/7/26",
+   "item": "Cream Certosure-N [?]",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "अर्चना [?]"
+  },
+  {
+   "srNo": 391,
+   "page": 9,
+   "date": "25/7/26",
+   "item": "बँडेज रोल",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 392,
+   "page": 9,
+   "date": "26/7/26",
+   "item": "IV set",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 393,
+   "page": 9,
+   "date": "26/7/26",
+   "item": "Dispovan (5 ml, 10 ml)",
+   "qty": "1 + 1",
+   "givenBy": "Pinky",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 394,
+   "page": 9,
+   "date": "26/7/26",
+   "item": "मास्क",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 395,
+   "page": 9,
+   "date": "26/7/26",
+   "item": "Drops - Moxifloxacin",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 396,
+   "page": 9,
+   "date": "28/7/26",
+   "item": "Tab - Cold Well",
+   "qty": "10 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 397,
+   "page": 9,
+   "date": "28/7/26",
+   "item": "Paracetamol 500 mg",
+   "qty": "10 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "राजश्री मावशी"
+  },
+  {
+   "srNo": 398,
+   "page": 9,
+   "date": "29/7/26",
+   "item": "सेल (छोटे)",
+   "qty": "2 नग",
+   "givenBy": "Kajal",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 399,
+   "page": 9,
+   "date": "29/7/26",
+   "item": "गोळ्यांचा डबा [?]",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "कविताकडे दिले [?]"
+  },
+  {
+   "srNo": 400,
+   "page": 9,
+   "date": "29/7/26",
+   "item": "Gloves",
+   "qty": "1 जोड",
+   "givenBy": "Kajal",
+   "receivedBy": "अर्चना [?]"
+  },
+  {
+   "srNo": 401,
+   "page": 9,
+   "date": "29/7/2026",
+   "item": "दुध बाटली",
+   "qty": "1 Nos",
+   "givenBy": "Kajal",
+   "receivedBy": "पल्लवी (बाळासाठी) [?]"
+  },
+  {
+   "srNo": 402,
+   "page": 9,
+   "date": "29/7/2026",
+   "item": "Gloves",
+   "qty": "2 जोड",
+   "givenBy": "Kajal",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 403,
+   "page": 9,
+   "date": "29/7/2026",
+   "item": "Handwash",
+   "qty": "1 नग",
+   "givenBy": "Kajal",
+   "receivedBy": "किचनसाठी"
+  },
+  {
+   "srNo": 404,
+   "page": 9,
+   "date": "29/7/2026",
+   "item": "Tab - Orofist 2XT [?]",
+   "qty": "9 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "विद्या पाटील [?]"
+  },
+  {
+   "srNo": 405,
+   "page": 9,
+   "date": "1/8/2026",
+   "item": "मास्क",
+   "qty": "2 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "वॉचमन"
+  },
+  {
+   "srNo": 406,
+   "page": 9,
+   "date": "1/8/2026",
+   "item": "मास्क",
+   "qty": "90 नग [?]",
+   "givenBy": "Sutar",
+   "receivedBy": "सर्व स्टाफ [?]"
+  },
+  {
+   "srNo": 407,
+   "page": 9,
+   "date": "1/8/2026",
+   "item": "Tab - B-complex",
+   "qty": "5 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव मोरे [?]"
+  },
+  {
+   "srNo": 408,
+   "page": 9,
+   "date": "3/8/2026",
+   "item": "Tab - ART",
+   "qty": "2 Nos",
+   "givenBy": "Pinky",
+   "receivedBy": "कावेरी [?]"
+  },
+  {
+   "srNo": 409,
+   "page": 9,
+   "date": "2/8/2026",
+   "item": "Cell",
+   "qty": "1 Nos",
+   "givenBy": "Kajal",
+   "receivedBy": "शितल काकू [?]"
+  },
+  {
+   "srNo": 410,
+   "page": 9,
+   "date": "3/8/2026",
+   "item": "Tab - Sizodon LS",
+   "qty": "30 Nos",
+   "givenBy": "Pinky",
+   "receivedBy": "शितल काकू [?]"
+  },
+  {
+   "srNo": 411,
+   "page": 9,
+   "date": "3/8/2026",
+   "item": "ART पुस्तक",
+   "qty": "66",
+   "givenBy": "Pinky",
+   "receivedBy": "कॉटेज हॉस्पिटल"
+  },
+  {
+   "srNo": 412,
+   "page": 9,
+   "date": "3/8/2026",
+   "item": "TRT पुस्तक",
+   "qty": "1",
+   "givenBy": "Pinky",
+   "receivedBy": "कॉटेज हॉस्पिटल"
+  },
+  {
+   "srNo": 413,
+   "page": 9,
+   "date": "3/8/26",
+   "item": "B-complex",
+   "qty": "15 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "वैभव मोरे"
+  },
+  {
+   "srNo": 414,
+   "page": 9,
+   "date": "4/8/26",
+   "item": "Odomos",
+   "qty": "1 Nos",
+   "givenBy": "Pinky",
+   "receivedBy": "वॉचमन"
+  },
+  {
+   "srNo": 415,
+   "page": 9,
+   "date": "5/8/26",
+   "item": "Mask (कापडी)",
+   "qty": "1 Nos",
+   "givenBy": "Kajal",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 416,
+   "page": 9,
+   "date": "5/8/26",
+   "item": "Deriphyllin / Cough Go [?]",
+   "qty": "3 Nos",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव मोरे"
+  },
+  {
+   "srNo": 417,
+   "page": 9,
+   "date": "5/8/26",
+   "item": "Tab - B-complex",
+   "qty": "4 Nos",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव मोरे"
+  },
+  {
+   "srNo": 418,
+   "page": 9,
+   "date": "6/8/26",
+   "item": "दुध बॉटल",
+   "qty": "1 Nos",
+   "givenBy": "Pinky",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 419,
+   "page": 9,
+   "date": "8/8/26",
+   "item": "Tab - Diclofenac",
+   "qty": "5 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 420,
+   "page": 9,
+   "date": "9/8/2026",
+   "item": "Tab - Cold Well",
+   "qty": "6 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "ज्ञानेश्वर [?]"
+  },
+  {
+   "srNo": 421,
+   "page": 9,
+   "date": "9/8/2026",
+   "item": "Tab - Azithromycin",
+   "qty": "6 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "ज्ञानेश्वर [?]"
+  },
+  {
+   "srNo": 422,
+   "page": 9,
+   "date": "10/8/2026",
+   "item": "Tab - Xanfenac-SP",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव मोरे"
+  },
+  {
+   "srNo": 423,
+   "page": 9,
+   "date": "14/8/2026",
+   "item": "Tab - Lomovex",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 424,
+   "page": 9,
+   "date": "14/8/26",
+   "item": "Tab - Cyclopam",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "पुणे कार्यालय [?]"
+  },
+  {
+   "srNo": 425,
+   "page": 9,
+   "date": "14/8/26",
+   "item": "Tab - Combiflam",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव दादा"
+  },
+  {
+   "srNo": 426,
+   "page": 9,
+   "date": "14/8/26",
+   "item": "Tab - Lomovex",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव दादा"
+  },
+  {
+   "srNo": 427,
+   "page": 9,
+   "date": "14/8/26",
+   "item": "Tab - Alkem Para [?]",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव दादा"
+  },
+  {
+   "srNo": 428,
+   "page": 9,
+   "date": "14/8/26",
+   "item": "Tab - Diclofenac",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव दादा"
+  },
+  {
+   "srNo": 429,
+   "page": 9,
+   "date": "14/8/26",
+   "item": "Tab - Rabeprazole",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव दादा"
+  },
+  {
+   "srNo": 430,
+   "page": 9,
+   "date": "14/8/26",
+   "item": "Dressing box",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव दादा"
+  },
+  {
+   "srNo": 431,
+   "page": 9,
+   "date": "14/8/26",
+   "item": "Tab - Cold Well",
+   "qty": "10 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव दादा"
+  },
+  {
+   "srNo": 432,
+   "page": 9,
+   "date": "14/8/26",
+   "item": "Tab - Avisafe",
+   "qty": "30 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव दादा"
+  },
+  {
+   "srNo": 433,
+   "page": 9,
+   "date": "14/8/26",
+   "item": "Vomiting bag",
+   "qty": "10 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव दादा"
+  },
+  {
+   "srNo": 434,
+   "page": 9,
+   "date": "16/8/26",
+   "item": "DNS 500 ml",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Raju Bisrat [?]"
+  },
+  {
+   "srNo": 435,
+   "page": 9,
+   "date": "16/8/26",
+   "item": "RL 500 ml",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Raju Bisrat [?]"
+  },
+  {
+   "srNo": 436,
+   "page": 9,
+   "date": "16/8/26",
+   "item": "NS 100 ml",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Raju Bisrat [?]"
+  },
+  {
+   "srNo": 437,
+   "page": 9,
+   "date": "16/8/26",
+   "item": "Dispovan 5 ml",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Raju Bisrat [?]"
+  },
+  {
+   "srNo": 438,
+   "page": 9,
+   "date": "16/8/26",
+   "item": "Inj - Pan 40 mg",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Raju Bisrat [?]"
+  },
+  {
+   "srNo": 439,
+   "page": 9,
+   "date": "16/8/26",
+   "item": "Inj - Ondansetron",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Raju Bisrat [?]"
+  },
+  {
+   "srNo": 440,
+   "page": 9,
+   "date": "16/8/26",
+   "item": "IV set",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Raju Bisrat [?]"
+  },
+  {
+   "srNo": 441,
+   "page": 9,
+   "date": "16/8/26",
+   "item": "जेलको (निळा)",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "Raju Bisrat [?]"
+  },
+  {
+   "srNo": 442,
+   "page": 9,
+   "date": "16/8/26",
+   "item": "Tab - Azithromycin",
+   "qty": "6 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "राजू [?]"
+  },
+  {
+   "srNo": 443,
+   "page": 9,
+   "date": "20/8/26",
+   "item": "Syp - Sinarest",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "लक्ष्य [?]"
+  },
+  {
+   "srNo": 444,
+   "page": 9,
+   "date": "20/8/26",
+   "item": "Syp - Cofaid",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "लक्ष्य [?]"
+  },
+  {
+   "srNo": 445,
+   "page": 9,
+   "date": "20/8/26",
+   "item": "IV set",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "माधुरी [?]"
+  },
+  {
+   "srNo": 446,
+   "page": 9,
+   "date": "20/8/26",
+   "item": "NS 100 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "माधुरी [?]"
+  },
+  {
+   "srNo": 447,
+   "page": 9,
+   "date": "20/8/26",
+   "item": "Inj - Ondansetron",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "माधुरी [?]"
+  },
+  {
+   "srNo": 448,
+   "page": 10,
+   "date": "20/8/26",
+   "item": "Dispovan",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "माधुरी [?]"
+  },
+  {
+   "srNo": 449,
+   "page": 10,
+   "date": "21/8/26",
+   "item": "IV set",
+   "qty": "1 नग",
+   "givenBy": "Kajal",
+   "receivedBy": "माधुरी [?]"
+  },
+  {
+   "srNo": 450,
+   "page": 10,
+   "date": "21/8/26",
+   "item": "NS 100 ml",
+   "qty": "2 नग",
+   "givenBy": "Kajal",
+   "receivedBy": "माधुरी [?]"
+  },
+  {
+   "srNo": 451,
+   "page": 10,
+   "date": "21/8/26",
+   "item": "Ondansetron",
+   "qty": "1 नग",
+   "givenBy": "Kajal",
+   "receivedBy": "माधुरी [?]"
+  },
+  {
+   "srNo": 452,
+   "page": 10,
+   "date": "22/8/26",
+   "item": "Mask",
+   "qty": "11 नग",
+   "givenBy": "Kajal",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 453,
+   "page": 10,
+   "date": "24/8/26",
+   "item": "Washproof [?]",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "बडे दादा [?]"
+  },
+  {
+   "srNo": 454,
+   "page": 10,
+   "date": "22/8/26",
+   "item": "Tab - Cold Well",
+   "qty": "8 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव मोरे"
+  },
+  {
+   "srNo": 455,
+   "page": 10,
+   "date": "22/8/26",
+   "item": "Tab - Azee 250 mg",
+   "qty": "6 नग [?]",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव मोरे"
+  },
+  {
+   "srNo": 456,
+   "page": 10,
+   "date": "22/8/26",
+   "item": "डिजिटल थर्मामीटर (परत मिळाला)",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव मोरे"
+  },
+  {
+   "srNo": 457,
+   "page": 10,
+   "date": "23/8/26",
+   "item": "वाफेची मशीन",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "वैभव मोरे"
+  },
+  {
+   "srNo": 458,
+   "page": 10,
+   "date": "25/8/26",
+   "item": "युरिन डबी",
+   "qty": "1 Nos",
+   "givenBy": "Pinky",
+   "receivedBy": "डॉ. लीना घाडगे"
+  },
+  {
+   "srNo": 459,
+   "page": 10,
+   "date": "31/8/26",
+   "item": "Syp - Azithromycin 15 ml",
+   "qty": "4 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 460,
+   "page": 10,
+   "date": "31/8/26",
+   "item": "Tab - Iron Folic Acid",
+   "qty": "30 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 461,
+   "page": 10,
+   "date": "6/9/26",
+   "item": "Odomos",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "बडे साठी [?]"
+  },
+  {
+   "srNo": 462,
+   "page": 10,
+   "date": "8/9/26",
+   "item": "मासिक पाळी रजिस्टर (बालगृह)",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "प्रेरणा"
+  },
+  {
+   "srNo": 463,
+   "page": 10,
+   "date": "8/9/26",
+   "item": "वैद्यकीय उपचार रजिस्टर (डॉ. बालगृह)",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "प्रेरणा"
+  },
+  {
+   "srNo": 464,
+   "page": 10,
+   "date": "8/9/26",
+   "item": "बालगृहातील मुलांचे ART पुस्तक",
+   "qty": "20 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "प्रेरणा"
+  },
+  {
+   "srNo": 465,
+   "page": 10,
+   "date": "10/9/26",
+   "item": "Nutrition book",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "लीना वहिनी"
+  },
+  {
+   "srNo": 466,
+   "page": 10,
+   "date": "10/9/26",
+   "item": "Tab - Meftal Forte",
+   "qty": "6 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "लीना ताई"
+  },
+  {
+   "srNo": 467,
+   "page": 10,
+   "date": "10/9/26",
+   "item": "Tab - Calcimax D3",
+   "qty": "4 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "लीना ताई"
+  },
+  {
+   "srNo": 468,
+   "page": 10,
+   "date": "10/9/26",
+   "item": "Tab - Admol 650 mg (Paracetamol)",
+   "qty": "20 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "लीना ताई [?]"
+  },
+  {
+   "srNo": 469,
+   "page": 10,
+   "date": "10/9/26",
+   "item": "Tab - Recofast Plus",
+   "qty": "2 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "लीना ताई [?]"
+  },
+  {
+   "srNo": 470,
+   "page": 10,
+   "date": "10/9/26",
+   "item": "Tab - Iron Folic Acid",
+   "qty": "30 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "लीना ताई [?]"
+  },
+  {
+   "srNo": 471,
+   "page": 10,
+   "date": "10/9/26",
+   "item": "Tab - Neurolab Forte",
+   "qty": "60 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "लीना ताई [?]"
+  },
+  {
+   "srNo": 472,
+   "page": 10,
+   "date": "10/9/26",
+   "item": "Tab - Calcijoint [?]",
+   "qty": "45 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "लीना ताई [?]"
+  },
+  {
+   "srNo": 473,
+   "page": 10,
+   "date": "10/9/26",
+   "item": "Tab - Happi-D (Rabeprazole)",
+   "qty": "18",
+   "givenBy": "Sutar",
+   "receivedBy": "लीना ताई"
+  },
+  {
+   "srNo": 474,
+   "page": 10,
+   "date": "12/9/26 [?]",
+   "item": "प्रथमोपचार बॉक्स",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "लीना ताई"
+  },
+  {
+   "srNo": 475,
+   "page": 10,
+   "date": "12/9/26",
+   "item": "प्रथमोपचार बॉक्स",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 476,
+   "page": 10,
+   "date": "16/9/26",
+   "item": "Volini spray [?]",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "[?]"
+  },
+  {
+   "srNo": 477,
+   "page": 10,
+   "date": "20/9/26",
+   "item": "Syp - Zydol [?]",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "लक्ष्य साठी [?]"
+  },
+  {
+   "srNo": 478,
+   "page": 10,
+   "date": "20/9/26",
+   "item": "Syp - Meftagesic",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "लक्ष्य साठी [?]"
+  },
+  {
+   "srNo": 479,
+   "page": 10,
+   "date": "24/9/26",
+   "item": "Tab - Rabeprazole",
+   "qty": "10 Tab",
+   "givenBy": "Sutar",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 480,
+   "page": 10,
+   "date": "3/10/26",
+   "item": "Tab - Clonazepam 0.25",
+   "qty": "10 Tab",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी [?]"
+  },
+  {
+   "srNo": 481,
+   "page": 10,
+   "date": "4/10/26",
+   "item": "ORS powder",
+   "qty": "4 पॅकेट",
+   "givenBy": "Pinky",
+   "receivedBy": "डिंपल घाडगे [?]"
+  },
+  {
+   "srNo": 482,
+   "page": 10,
+   "date": "9/10/26",
+   "item": "Syp - Cheri [?]",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "कावेरी [?]"
+  },
+  {
+   "srNo": 483,
+   "page": 10,
+   "date": "12/10/26",
+   "item": "Dispovan 50 ml",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "शाळा विभाग"
+  },
+  {
+   "srNo": 484,
+   "page": 10,
+   "date": "12/10/2026",
+   "item": "Dispovan 10 ml",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "शाळा विभाग"
+  },
+  {
+   "srNo": 485,
+   "page": 10,
+   "date": "12/10/2026",
+   "item": "IV set",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "शाळा विभाग"
+  },
+  {
+   "srNo": 486,
+   "page": 10,
+   "date": "14/10/2026",
+   "item": "Syp - Cital",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "बडे साठी"
+  },
+  {
+   "srNo": 487,
+   "page": 10,
+   "date": "14/10/26",
+   "item": "स्टेथोस्कोप",
+   "qty": "1 नग",
+   "givenBy": "Sutar",
+   "receivedBy": "रोहन [?]"
+  },
+  {
+   "srNo": 488,
+   "page": 10,
+   "date": "18/10/26 [?]",
+   "item": "NS 100 ml",
+   "qty": "5 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून)"
+  },
+  {
+   "srNo": 489,
+   "page": 10,
+   "date": "18/10/26 [?]",
+   "item": "IV set",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून)"
+  },
+  {
+   "srNo": 490,
+   "page": 10,
+   "date": "18/10/26 [?]",
+   "item": "Scalp vein set",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून)"
+  },
+  {
+   "srNo": 491,
+   "page": 10,
+   "date": "19/10/26",
+   "item": "Dispovan 5 ml",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून)"
+  },
+  {
+   "srNo": 492,
+   "page": 10,
+   "date": "19/10/26",
+   "item": "Dispovan 10 ml",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून)"
+  },
+  {
+   "srNo": 493,
+   "page": 10,
+   "date": "19/10/26",
+   "item": "Inj - Pantoprazole",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून)"
+  },
+  {
+   "srNo": 494,
+   "page": 10,
+   "date": "19/10/26",
+   "item": "Inj - Dynapar",
+   "qty": "5 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून)"
+  },
+  {
+   "srNo": 495,
+   "page": 10,
+   "date": "19/10/26",
+   "item": "Inj - Ondansetron",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून)"
+  },
+  {
+   "srNo": 496,
+   "page": 10,
+   "date": "19/10/26",
+   "item": "लिकोप्लास्ट [?]",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून)"
+  },
+  {
+   "srNo": 497,
+   "page": 10,
+   "date": "19/10/26",
+   "item": "कात्री",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "टाकळी (मून)"
+  },
+  {
+   "srNo": 498,
+   "page": 10,
+   "date": "20/10/26",
+   "item": "DNS 500 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "अण्णामामा [?] (कविता)"
+  },
+  {
+   "srNo": 499,
+   "page": 10,
+   "date": "20/10/26",
+   "item": "NS 100 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "अण्णामामा [?] (कविता)"
+  },
+  {
+   "srNo": 500,
+   "page": 10,
+   "date": "20/10/26",
+   "item": "Inj - Pan 40 mg",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "अण्णामामा [?] (कविता)"
+  },
+  {
+   "srNo": 501,
+   "page": 10,
+   "date": "20/10/26",
+   "item": "Inj - Ondansetron",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "अण्णामामा [?] (कविता)"
+  },
+  {
+   "srNo": 502,
+   "page": 10,
+   "date": "20/10/26",
+   "item": "Inj - Monocef 1 gm",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "अण्णामामा [?] (कविता)"
+  },
+  {
+   "srNo": 503,
+   "page": 10,
+   "date": "20/10/26",
+   "item": "Inj - Eldervit",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "अण्णामामा [?] (कविता)"
+  },
+  {
+   "srNo": 504,
+   "page": 10,
+   "date": "20/10/26",
+   "item": "IV set",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "अण्णामामा [?] (कविता)"
+  },
+  {
+   "srNo": 505,
+   "page": 10,
+   "date": "20/10/26",
+   "item": "Dispovan 5 ml",
+   "qty": "3 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "अण्णामामा [?] (कविता)"
+  },
+  {
+   "srNo": 506,
+   "page": 10,
+   "date": "20/10/26",
+   "item": "Dispovan 10 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "अण्णामामा [?] (कविता)"
+  },
+  {
+   "srNo": 507,
+   "page": 10,
+   "date": "20/10/26",
+   "item": "Scalp vein set",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "अण्णामामा [?] (कविता)"
+  },
+  {
+   "srNo": 508,
+   "page": 10,
+   "date": "20/10/26",
+   "item": "कात्री",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "अण्णामामा [?] (कविता)"
+  },
+  {
+   "srNo": 509,
+   "page": 10,
+   "date": "20/10/26",
+   "item": "लिकोप्लास्ट [?]",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "अण्णामामा [?] (कविता)"
+  },
+  {
+   "srNo": 510,
+   "page": 10,
+   "date": "25/10/26",
+   "item": "DNS 500 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 511,
+   "page": 10,
+   "date": "25/10/26",
+   "item": "NS 500 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 512,
+   "page": 10,
+   "date": "25/10/26",
+   "item": "NS 250 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 513,
+   "page": 10,
+   "date": "25/10/26",
+   "item": "NS 100 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 514,
+   "page": 10,
+   "date": "25/10/26",
+   "item": "Dispovan 5 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 515,
+   "page": 10,
+   "date": "25/10/26",
+   "item": "Dispovan 10 ml",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 516,
+   "page": 10,
+   "date": "25/10/26",
+   "item": "IV set",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 517,
+   "page": 10,
+   "date": "25/10/26",
+   "item": "Jelco (निळा)",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 518,
+   "page": 10,
+   "date": "25/10/26",
+   "item": "Jelco (पिवळा)",
+   "qty": "1 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 519,
+   "page": 10,
+   "date": "25/10/26",
+   "item": "Inj - Pan 40 mg",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 520,
+   "page": 10,
+   "date": "25/10/26",
+   "item": "Inj - Emset",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 521,
+   "page": 11,
+   "date": "25/10/26",
+   "item": "Inj - C-one [?]",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 522,
+   "page": 11,
+   "date": "25/10/26",
+   "item": "Inj - Eldervit",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 523,
+   "page": 11,
+   "date": "25/10/26",
+   "item": "Inj - Febrinil",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 524,
+   "page": 11,
+   "date": "25/10/26",
+   "item": "Inj - Tramadol",
+   "qty": "4 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 525,
+   "page": 11,
+   "date": "25/10/26",
+   "item": "RL 500 ml",
+   "qty": "2 नग",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 526,
+   "page": 11,
+   "date": "25/10/26",
+   "item": "Gloves box",
+   "qty": "1 बॉक्स",
+   "givenBy": "Pinky",
+   "receivedBy": "रोशन साठी [?]"
+  },
+  {
+   "srNo": 527,
+   "page": 11,
+   "date": "06/11/26",
+   "item": "Cell (small)",
+   "qty": "2 Nos",
+   "givenBy": "—",
+   "receivedBy": "वैभव दादा"
+  },
+  {
+   "srNo": 528,
+   "page": 11,
+   "date": "07/11/26",
+   "item": "Cell (small)",
+   "qty": "1 Nos",
+   "givenBy": "—",
+   "receivedBy": "स्वाभिमान [?]"
+  },
+  {
+   "srNo": 529,
+   "page": 11,
+   "date": "08/11/26",
+   "item": "Cell (big)",
+   "qty": "1 Nos",
+   "givenBy": "—",
+   "receivedBy": "स्वाभिमान [?]"
+  },
+  {
+   "srNo": 530,
+   "page": 11,
+   "date": "07/11/26",
+   "item": "Tab - Ecosprin 325 mg",
+   "qty": "14 Nos",
+   "givenBy": "—",
+   "receivedBy": "Dr. Leena"
+  },
+  {
+   "srNo": 531,
+   "page": 11,
+   "date": "08/11/26",
+   "item": "Tab - Okacet Cold",
+   "qty": "1 गोळी",
+   "givenBy": "—",
+   "receivedBy": "ज्ञानेश्वर [?]"
+  },
+  {
+   "srNo": 532,
+   "page": 11,
+   "date": "11/11/26",
+   "item": "वाफेची मशीन",
+   "qty": "1 मशीन",
+   "givenBy": "—",
+   "receivedBy": "ठाकरे – टाकळी [?]"
+  },
+  {
+   "srNo": 533,
+   "page": 11,
+   "date": "13/11/26",
+   "item": "वॉटर बेड",
+   "qty": "1 नग",
+   "givenBy": "—",
+   "receivedBy": "ठाकरे – टाकळी [?]"
+  },
+  {
+   "srNo": 534,
+   "page": 11,
+   "date": "13/11/26",
+   "item": "हॉट वॉटर बॅग",
+   "qty": "1 नग",
+   "givenBy": "—",
+   "receivedBy": "ठाकरे – टाकळी [?]"
+  }
+ ]
+}

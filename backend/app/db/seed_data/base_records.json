@@ -1,0 +1,212 @@
+{
+  "csr_partners": [
+    {
+      "id": "partner_1",
+      "organizationName": "Solapur Social Welfare Foundation",
+      "contactPerson": "Rahul Deshmukh",
+      "email": "rahul@solapursocial.org",
+      "phone": "9822112233",
+      "city": "Solapur",
+      "status": "Active",
+      "focusArea": "Education & Child Care",
+      "totalDonationAmount": 250000,
+      "lastInteractionDate": "2026-06-15"
+    },
+    {
+      "id": "partner_2",
+      "organizationName": "Pandharpur Seva Trust",
+      "contactPerson": "Anjali Kulkarni",
+      "email": "anjali@pandharpurseva.org",
+      "phone": "9422334455",
+      "city": "Pandharpur",
+      "status": "Active",
+      "focusArea": "Healthcare & Rations",
+      "totalDonationAmount": 180000,
+      "lastInteractionDate": "2026-06-20"
+    }
+  ],
+  "donors": [
+    {
+      "id": "donor_1",
+      "name": "Shri Ramesh Kothari",
+      "email": "ramesh@kothari.com",
+      "phone": "9822012345",
+      "city": "Pandharpur",
+      "type": "Individual",
+      "totalDoned": 150000,
+      "lastDonationDate": "2026-08-10",
+      "panNumber": "ABCDE1234F"
+    },
+    {
+      "id": "donor_2",
+      "name": "Smt. Sunita Doshi",
+      "email": "sunita@doshi.org",
+      "phone": "9850987654",
+      "city": "Akluj",
+      "type": "Individual",
+      "totalDoned": 95000,
+      "lastDonationDate": "2026-07-25",
+      "panNumber": "FGHIJ5678K"
+    }
+  ],
+  "pipeline": [
+    {
+      "id": "pipe_1",
+      "donorName": "Solapur Industries Association",
+      "expectedAmount": 500000,
+      "stage": "Proposal Sent",
+      "probability": 75,
+      "expectedDate": "2026-11-30",
+      "notes": "Meeting scheduled with president next week",
+      "notesMr": "पुढील आठवड्यात अध्यक्षांसोबत बैठक निश्चित"
+    },
+    {
+      "id": "pipe_2",
+      "donorName": "Pandharpur Sugar Mills CSR",
+      "expectedAmount": 1000000,
+      "stage": "Negotiation",
+      "probability": 90,
+      "expectedDate": "2026-12-15",
+      "notes": "Finalizing annual ration distribution MoU",
+      "notesMr": "वार्षिक शिधा वाटप सामंजस्य कराराला अंतिम रूप देणे सुरू"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "int_1",
+      "date": "2026-10-15",
+      "donorName": "Shri Ramesh Kothari",
+      "channel": "WhatsApp",
+      "summary": "Sent festive ration update and photo appreciation card.",
+      "followUpDate": "2026-11-01",
+      "summaryMr": "सणासुदीच्या शिधा वाटपाची माहिती व छायाचित्रासह आभारपत्र पाठवले."
+    }
+  ],
+  "contributions": [
+    {
+      "id": "cont_1",
+      "receiptNo": "PAL/2026/089",
+      "date": "2026-08-10",
+      "donorName": "Shri Ramesh Kothari",
+      "amount": 50000,
+      "paymentMode": "Bank Transfer",
+      "purpose": "Child Education Sponsor"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "inv_1",
+      "itemName": "Rice (Govind Bhog)",
+      "category": "Food Grains",
+      "quantity": 450,
+      "unit": "Kg",
+      "minThreshold": 100,
+      "itemNameMr": "तांदूळ (गोविंद भोग)"
+    },
+    {
+      "id": "inv_2",
+      "itemName": "Toor Dal",
+      "category": "Food Grains",
+      "quantity": 180,
+      "unit": "Kg",
+      "minThreshold": 50,
+      "itemNameMr": "तूर डाळ"
+    },
+    {
+      "id": "inv_3",
+      "itemName": "Edible Oil (Saffola)",
+      "category": "Grocery",
+      "quantity": 95,
+      "unit": "Litres",
+      "minThreshold": 30,
+      "itemNameMr": "खाद्यतेल (सफोला)"
+    },
+    {
+      "id": "inv_4",
+      "itemName": "School Uniform Sets",
+      "category": "Clothing",
+      "quantity": 220,
+      "unit": "Sets",
+      "minThreshold": 50,
+      "itemNameMr": "शालेय गणवेश संच"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_1",
+      "title": "Verify gate register records for September",
+      "assignedTo": "Shital Wagh",
+      "dueDate": "2026-10-01",
+      "completed": true,
+      "titleMr": "सप्टेंबरच्या गेट रजिस्टर नोंदींची पडताळणी"
+    },
+    {
+      "id": "task_2",
+      "title": "Dispatch monthly ration kits to Palawi centers",
+      "assignedTo": "Tukaram Belkar",
+      "dueDate": "2026-11-05",
+      "completed": false,
+      "titleMr": "पालवी केंद्रांना मासिक शिधा संच पाठवणे"
+    },
+    {
+      "id": "task_3",
+      "title": "Prepare 80G tax exemption receipts for Q3 donors",
+      "assignedTo": "Archana Dudam",
+      "dueDate": "2026-11-15",
+      "completed": false,
+      "titleMr": "तिसऱ्या तिमाहीतील दात्यांसाठी 80G कर सवलत पावत्या तयार करणे"
+    }
+  ],
+  "material_distribution": [
+    {
+      "id": "mat_1",
+      "month": "August 2026",
+      "residentName": "Aarohi Shinde",
+      "uniforms": 2,
+      "shirtsPants": 2,
+      "towelsSoaps": 1,
+      "cleaningItem": "Phenyl & Soap",
+      "signedBy": "Shital Tai"
+    }
+  ],
+  "staff_attendance": [
+    {
+      "id": "staff_1",
+      "month": "August 2026",
+      "staffName": "Shital Wagh",
+      "role": "Operations Head",
+      "daysPresent": 30,
+      "totalWorkingDays": 31,
+      "status": "Verified"
+    }
+  ],
+  "whatsapp_messages": [
+    {
+      "id": "wa_1",
+      "toPhone": "+919822012345",
+      "toName": "Shri Ramesh Kothari",
+      "content": "Respected Sir, Thank you for your continued support to Palawi Children Foundation. Warm regards, Palawi Team.",
+      "timestamp": "2026-10-15 11:30 AM",
+      "status": "Delivered",
+      "direction": "outbound"
+    }
+  ],
+  "whatsapp_templates": [
+    {
+      "id": "tpl_1",
+      "title": "Donation Appreciation & Receipt",
+      "category": "Donation",
+      "text": "Dear [Name], Thank you so much for your generous contribution of ₹[Amount] towards Palawi children. Your 80G receipt has been generated successfully.",
+      "titleMr": "देणगीबद्दल आभार व पावती",
+      "textMr": "प्रिय [नाव], पालवीतील मुलांसाठी आपण दिलेल्या ₹[रक्कम] च्या उदार देणगीबद्दल मनःपूर्वक धन्यवाद. आपली 80G पावती तयार झाली आहे."
+    },
+    {
+      "id": "tpl_2",
+      "title": "Gate Entry Notification",
+      "category": "Operations",
+      "text": "Dear [Name], Your visit / donation entry has been successfully logged in the Palawi Gate Register. Thank you for visiting us!",
+      "titleMr": "गेट नोंद सूचना",
+      "textMr": "प्रिय [नाव], आपली भेट / देणगी नोंद पालवी गेट रजिस्टरमध्ये यशस्वीरीत्या नोंदवली आहे. भेट दिल्याबद्दल धन्यवाद!"
+    }
+  ]
+}

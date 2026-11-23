@@ -1,0 +1,277 @@
+{
+ "note": "प्रवेशित हजेरी रजिस्टर, Balgruh, October 2026. The register is filled up to 23 October; every resident is marked present (P) on all 23 days. Names marked [?] were hard to read.",
+ "columns": [
+  {
+   "key": "srNo",
+   "en": "Sr.",
+   "mr": "अ. क्र."
+  },
+  {
+   "key": "group",
+   "en": "Age group",
+   "mr": "गट"
+  },
+  {
+   "key": "section",
+   "en": "Boys / Girls",
+   "mr": "मुले / मुली"
+  },
+  {
+   "key": "name",
+   "en": "Resident name",
+   "mr": "विद्यार्थी नांव"
+  },
+  {
+   "key": "daysPresent",
+   "en": "Days present (1–23 Oct)",
+   "mr": "उपस्थित दिवस (1–23 ऑक्टो.)"
+  },
+  {
+   "key": "absent",
+   "en": "Absent days",
+   "mr": "गैरहजर दिवस"
+  }
+ ],
+ "rows": [
+  {
+   "srNo": 1,
+   "group": "प्राथमिक गट (0–6 वर्ष)",
+   "section": "मुली",
+   "name": "खुशी [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 2,
+   "group": "प्राथमिक गट (0–6 वर्ष)",
+   "section": "मुले",
+   "name": "वृषभ अशोक राठोड [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 3,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुले",
+   "name": "समर्थ आबुराव वरवे [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 4,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुले",
+   "name": "अक्षय",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 5,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुले",
+   "name": "रिशा सुनिता कोरला [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 6,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुले",
+   "name": "कुणाल हनुमंत येलपले [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 7,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुले",
+   "name": "विशाल म्हाळू शेंडे [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 8,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुले",
+   "name": "स्वनिश राम पोतदार [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 9,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुले",
+   "name": "पिल्लू कुमार शिंदे",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 10,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुली",
+   "name": "अंजिक्या [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 11,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुली",
+   "name": "वागेश्वरी [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 12,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुली",
+   "name": "प्राजक्ता",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 13,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुली",
+   "name": "अनन्या",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 14,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुली",
+   "name": "शिवानी",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 15,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुली",
+   "name": "प्रियंका",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 16,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुली",
+   "name": "अदिती",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 17,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुली",
+   "name": "पुजा सिद्धू दोंडुले [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 18,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुली",
+   "name": "काजल हनुमंत शेंडे [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 19,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुली",
+   "name": "वेदिका नंदू बनसोडे",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 20,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुली",
+   "name": "सानवी विजय सोनके [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 21,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुली",
+   "name": "अमृता सोमनाथ शेलार",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 22,
+   "group": "कनिष्ठ गट (6–15 वर्ष)",
+   "section": "मुली",
+   "name": "साक्षी",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 23,
+   "group": "वरिष्ठ गट (15–18 वर्ष)",
+   "section": "मुले",
+   "name": "रोशन",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 24,
+   "group": "वरिष्ठ गट (15–18 वर्ष)",
+   "section": "मुली",
+   "name": "अंकिता अशोक साळुंखे [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 25,
+   "group": "वरिष्ठ गट (15–18 वर्ष)",
+   "section": "मुली",
+   "name": "श्याली संजय फडतरे [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 26,
+   "group": "वरिष्ठ गट (15–18 वर्ष)",
+   "section": "मुली",
+   "name": "दिशा भागवत वाघमारे",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 27,
+   "group": "वरिष्ठ गट (15–18 वर्ष)",
+   "section": "मुली",
+   "name": "पुजा जनोबा शिंदे [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 28,
+   "group": "वरिष्ठ गट (15–18 वर्ष)",
+   "section": "मुली",
+   "name": "लक्ष्मी ईरप्पा मारे [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 29,
+   "group": "वरिष्ठ गट (15–18 वर्ष)",
+   "section": "मुली",
+   "name": "मोनिका अशोक रासीवे [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  },
+  {
+   "srNo": 30,
+   "group": "वरिष्ठ गट (15–18 वर्ष)",
+   "section": "मुली",
+   "name": "कार्तिकी अनंत कुंभार [?]",
+   "daysPresent": 23,
+   "absent": "—"
+  }
+ ]
+}
