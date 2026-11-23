@@ -20,7 +20,7 @@ frontend/
 backend/
   main.py        FastAPI app: CORS, MongoDB lifespan, routers
   app/api/       route handlers, mounted at /api/v1
-  app/core/      settings from environment / backend/.env
+  app/core/      settings from environment / the root .env
   app/db/        MongoDB client, collection names, seed data
   app/models/    Pydantic request schemas
   app/services/  business logic and queries
@@ -35,12 +35,14 @@ backend/
 ## Setup
 
 ```bash
+# Shared settings (one .env at the repo root, used by backend and frontend)
+copy .env.example .env          # macOS/Linux: cp .env.example .env  — then set MONGODB_URI
+
 # Backend
 cd backend
 python -m venv .venv            # Windows: py -3.11 -m venv .venv
 .venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
-copy .env.example .env          # macOS/Linux: cp .env.example .env  — then set MONGODB_URI
 
 # Frontend
 cd ../frontend
@@ -70,7 +72,9 @@ in `backend/app/db/seed_data/`. Set `SEED_ON_STARTUP=false` to turn this off.
 
 ## Configuration
 
-`backend/.env` (see [backend/.env.example](backend/.env.example)):
+Both apps read one `.env` at the repo root (see [.env.example](.env.example)).
+
+Backend:
 
 | Variable | Default | Purpose |
 | --- | --- | --- |
@@ -79,7 +83,7 @@ in `backend/app/db/seed_data/`. Set `SEED_ON_STARTUP=false` to turn this off.
 | `SEED_ON_STARTUP` | `true` | Seed empty collections at startup |
 | `CORS_ORIGINS` | `http://localhost:5173,http://127.0.0.1:5173` | Comma-separated origins allowed to call the API |
 
-`frontend/.env.local` (see [frontend/.env.example](frontend/.env.example)):
+Frontend (only `VITE_*` variables are exposed to the browser):
 
 | Variable | Purpose |
 | --- | --- |

@@ -1,4 +1,4 @@
-"""Application settings, read from environment variables and backend/.env."""
+"""Application settings, read from environment variables and the shared .env at the repo root."""
 
 from functools import lru_cache
 from pathlib import Path
@@ -6,11 +6,13 @@ from pathlib import Path
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 BACKEND_DIR = Path(__file__).resolve().parents[2]
+# One .env at the repo root is shared with the frontend.
+ROOT_DIR = BACKEND_DIR.parent
 
 
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(
-        env_file=BACKEND_DIR / ".env",
+        env_file=ROOT_DIR / ".env",
         env_file_encoding="utf-8",
         extra="ignore",
     )
