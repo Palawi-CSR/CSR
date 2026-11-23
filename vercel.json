@@ -1,0 +1,19 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci --prefix frontend",
+  "buildCommand": "npm run build --prefix frontend",
+  "outputDirectory": "frontend/dist",
+  "functions": {
+    "api/index.py": {
+      "includeFiles": "backend/{main.py,app/**}",
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index" },
+    { "source": "/files/(.*)", "destination": "/api/index" },
+    { "source": "/health", "destination": "/api/index" },
+    { "source": "/((?!assets/).*)", "destination": "/index.html" }
+  ]
+}

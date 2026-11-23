@@ -16,6 +16,8 @@ WHATSAPP_MESSAGES = "whatsapp_messages"
 WHATSAPP_TEMPLATES = "whatsapp_templates"
 # Sequence counters ({_id: <name>, seq: <int>}); not in ALL because it has no id/sort_key.
 COUNTERS = "counters"
+# Gate register photos ({_id: <file name>, contentType, data}); not in ALL for the same reason.
+GATE_PHOTOS = "gate_photos"
 
 ALL = (
     GATE_REGISTER,

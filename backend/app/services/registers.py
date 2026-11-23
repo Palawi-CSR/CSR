@@ -48,7 +48,7 @@ async def create_gate_entry(db: AsyncDatabase, payload: GateEntryCreate) -> dict
 
     photo_url = None
     if photo:
-        filename = save_photo(photo, get_settings().gate_photo_dir, registration_id)
+        filename = await save_photo(db, photo, registration_id)
         photo_url = f"{GATE_PHOTO_URL}/{filename}"
 
     collection = db[collections.GATE_REGISTER]

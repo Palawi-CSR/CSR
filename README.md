@@ -101,6 +101,30 @@ If the frontend and API are on different domains, build with
 `VITE_API_BASE_URL=https://your-api.example.org` and add the frontend's origin
 to `CORS_ORIGINS`.
 
+## Deploy to Vercel (one project)
+
+The repo deploys as a single Vercel project: the Vite build is served as static
+files and the FastAPI app runs as a Python serverless function on the same domain.
+
+| File | Role |
+| --- | --- |
+| [vercel.json](vercel.json) | Builds `frontend/` into `frontend/dist`; sends `/api/*`, `/files/*` and `/health` to the function; everything else to `index.html` |
+| [api/index.py](api/index.py) | Function entry point: imports the FastAPI `app` from `backend/main.py` |
+| [requirements.txt](requirements.txt) | Python dependencies for the function (includes `backend/requirements.txt`) |
+| [.vercelignore](.vercelignore) | Keeps `.env`, `.venv`, `node_modules` and `backend/storage` out of CLI uploads |
+
+1. Import the repo in Vercel and keep the **Root Directory** as the repo root
+   (no framework preset needed; `vercel.json` sets the build).
+2. Under *Settings → Environment Variables*, add the variables from
+   [.env.example](.env.example): at least `MONGODB_URI` and `MONGODB_DB_NAME`.
+   Leave `VITE_API_BASE_URL` empty.
+3. In MongoDB Atlas, allow connections from Vercel under *Network Access*
+   (Vercel has no fixed IPs on most plans, so this usually means `0.0.0.0/0`).
+4. Deploy. Once the database is seeded, set `SEED_ON_STARTUP=false`.
+
+The scanned register PDFs in `backend/storage/registers/` are not in git, so a
+Vercel deployment lists them as unavailable; their typed-in entries still show.
+
 ## Gate register entries
 
 Employees (volunteers) sign in to the Register Log only. Its *Add entry* form
@@ -108,8 +132,8 @@ records name, date of birth, mobile, date, state and city (dropdowns), address,
 category, donation/remarks and an optional photo. Each new entry gets a unique
 registration ID (`PLW-000001`, `PLW-000002`, ...) from an atomic counter in the
 `counters` collection; entries copied from the paper register have none. Photos
-are saved to `backend/storage/gate-photos/` (not in git; back this folder up
-with the database) and served at `/files/gate-photos/`.
+(JPEG/PNG/WebP, up to 3 MB) are stored in MongoDB's `gate_photos` collection, so
+backing up the database backs them up too, and are served at `/files/gate-photos/`.
 
 ## Known gaps
 

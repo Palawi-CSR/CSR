@@ -31,6 +31,13 @@ async def close_mongo_connection() -> None:
 
 
 def get_database() -> AsyncDatabase:
+    """The connected database. Connects lazily when the app lifespan has not run (serverless)."""
     if _mongo.db is None:
-        raise RuntimeError("MongoDB is not connected; the app lifespan has not started.")
+        # Imported here to avoid a circular import at module load.
+        from app.core.config import get_settings
+
+        settings = get_settings()
+        # The client opens its connection on the first operation, so this does no I/O.
+        _mongo.client = AsyncMongoClient(settings.mongodb_uri, serverSelectionTimeoutMS=5000)
+        _mongo.db = _mongo.client[settings.mongodb_db_name]
     return _mongo.db

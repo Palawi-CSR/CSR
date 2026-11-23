@@ -2,6 +2,8 @@
 
 Run from the backend/ folder:
     uvicorn main:app --reload
+
+On Vercel it is served by api/index.py at the repo root (see vercel.json).
 """
 
 import logging
@@ -13,6 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
 from app.api.router import api_router
+from app.api.routes import files
 from app.core.config import get_settings
 from app.db.mongodb import close_mongo_connection, connect_to_mongo, get_database
 from app.db.seed import seed_database
@@ -43,17 +46,14 @@ app.add_middleware(
 )
 
 app.include_router(api_router, prefix=settings.api_prefix)
+app.include_router(files.router)
 
-# Original scanned registers (PDF). check_dir=False so the API still starts without them.
+# Original scanned registers (PDF). check_dir=False so the API still starts without them
+# (they are not in git, so a Vercel deployment lists them as unavailable).
 app.mount(
     "/files/registers",
     StaticFiles(directory=settings.register_files_dir, check_dir=False),
     name="register-files",
-)
-app.mount(
-    "/files/gate-photos",
-    StaticFiles(directory=settings.gate_photo_dir, check_dir=False),
-    name="gate-photos",
 )
 
 

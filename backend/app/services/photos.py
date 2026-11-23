@@ -1,9 +1,17 @@
-"""Optional photos sent as data URLs ("data:image/jpeg;base64,...") and saved to disk."""
+"""Optional photos sent as data URLs ("data:image/jpeg;base64,...") and stored in MongoDB.
+
+Photos live in the database rather than on disk so the API also runs where the
+filesystem is read-only (e.g. Vercel serverless functions).
+"""
 
 import base64
 import binascii
 import re
-from pathlib import Path
+
+from bson import Binary
+from pymongo.asynchronous.database import AsyncDatabase
+
+from app.db import collections
 
 MAX_PHOTO_BYTES = 3 * 1024 * 1024
 
@@ -32,10 +40,22 @@ def decode_photo(data_url: str) -> tuple[bytes, str]:
     return data, ext
 
 
-def save_photo(photo: tuple[bytes, str], directory: Path, name: str) -> str:
-    """Write a decoded photo as <directory>/<name>.<ext> and return the file name."""
+_CONTENT_TYPES = {"jpg": "image/jpeg", "png": "image/png", "webp": "image/webp"}
+
+
+async def save_photo(db: AsyncDatabase, photo: tuple[bytes, str], name: str) -> str:
+    """Store a decoded photo as <name>.<ext> and return that file name."""
     data, ext = photo
-    directory.mkdir(parents=True, exist_ok=True)
     filename = f"{name}.{ext}"
-    (directory / filename).write_bytes(data)
+    await db[collections.GATE_PHOTOS].replace_one(
+        {"_id": filename},
+        {"_id": filename, "contentType": _CONTENT_TYPES[ext], "data": Binary(data)},
+        upsert=True,
+    )
     return filename
+
+
+async def load_photo(db: AsyncDatabase, filename: str) -> tuple[bytes, str] | None:
+    """Return (bytes, content type) of a stored photo, or None if there is none by that name."""
+    doc = await db[collections.GATE_PHOTOS].find_one({"_id": filename})
+    return (bytes(doc["data"]), doc["contentType"]) if doc else None

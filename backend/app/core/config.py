@@ -29,9 +29,6 @@ class Settings(BaseSettings):
     # Scanned source registers (PDFs), served at /files/registers. Not in git: large files.
     register_files_dir: Path = BACKEND_DIR / "storage" / "registers"
 
-    # Optional photos uploaded with gate register entries, served at /files/gate-photos.
-    gate_photo_dir: Path = BACKEND_DIR / "storage" / "gate-photos"
-
     # Comma-separated list of origins allowed to call the API from a browser.
     cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
 
