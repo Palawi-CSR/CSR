@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage, translateValue } from '../context/LanguageContext';
+import { ProposalFormats } from '../components/ProposalFormats';
 import { 
   FileText, 
   Plus, 
@@ -65,7 +66,7 @@ export const ProposalCreator: React.FC<ProposalCreatorProps> = ({
   onOpenWhatsAppOutreach,
 }) => {
   const { t, tr, tv, language } = useLanguage();
-  const [activeSubTab, setActiveSubTab] = useState<'create' | 'templates'>('create');
+  const [activeSubTab, setActiveSubTab] = useState<'create' | 'templates' | 'formats'>('formats');
 
   // Pre-loaded Templates
   const [templates, setTemplates] = useState<ProposalTemplate[]>([
@@ -379,6 +380,18 @@ ${D('Contact', 'संपर्क')}: admin@palawi.org | +91 8179308777
           >
             <FileText className="w-3.5 h-3.5" />
             <span>{tr('Proposal Templates', 'प्रस्ताव साचे')} ({templates.length})</span>
+          </button>
+
+          <button
+            onClick={() => setActiveSubTab('formats')}
+            className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+              activeSubTab === 'formats'
+                ? 'bg-[#023b77] text-white shadow-xs'
+                : 'text-slate-600 hover:text-slate-900'
+            }`}
+          >
+            <Award className="w-3.5 h-3.5" />
+            <span>{tr('Official Formats', 'अधिकृत नमुने')}</span>
           </button>
         </div>
       </div>
@@ -712,6 +725,9 @@ ${D('Contact', 'संपर्क')}: admin@palawi.org | +91 8179308777
           </div>
         </div>
       )}
+
+      {/* VIEW 3: OFFICIAL PRABHA HIRA PRATISHTHAN LETTER / PROPOSAL FORMATS */}
+      {activeSubTab === 'formats' && <ProposalFormats />}
 
       {/* VIEW 2: TEMPLATE MANAGEMENT */}
       {activeSubTab === 'templates' && (

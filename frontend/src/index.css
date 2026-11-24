@@ -5,3 +5,222 @@ svg.lucide {
   flex-shrink: 0;
   stroke-width: 1.75;
 }
+
+/* ---------- Donation receipt (Prabha-Hira Pratishthan format) ---------- */
+.receipt-sheet {
+  width: 210mm;
+  min-height: 150mm;
+  margin: 0 auto;
+  padding: 10mm 8mm 8mm 11mm;
+  background: #fff;
+  color: #000;
+  border: 1px solid #555;
+  border-radius: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  line-height: 1.35;
+  box-sizing: border-box;
+}
+.receipt-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.receipt-letterhead {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 22px;
+}
+.receipt-logo {
+  width: 40mm;
+  height: auto;
+  flex-shrink: 0;
+}
+.receipt-org {
+  flex: 1;
+  text-align: center;
+}
+.receipt-org-name {
+  color: #e8696b;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.receipt-org-tagline {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 4px;
+}
+.receipt-org-address {
+  color: #2f5fbf;
+  font-size: 15.5px;
+  margin-top: 14px;
+}
+.receipt-org-address a {
+  color: #00e;
+  text-decoration: underline;
+}
+.receipt-fields {
+  margin-top: 26px;
+  font-size: 19px;
+}
+.receipt-fields p {
+  margin: 0 0 8px;
+}
+.receipt-fill {
+  border-bottom: 1.5px dotted #000;
+  padding: 0 14px 0 30px;
+  letter-spacing: 0.04em;
+  font-family: 'Noto Serif', 'Times New Roman', Times, serif;
+  font-size: 18px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.receipt-signatures {
+  margin: 40px 50px 0 auto;
+  width: 120mm;
+  font-family: 'Noto Serif', 'Times New Roman', Times, serif;
+  font-size: 13.5px;
+}
+.receipt-for {
+  text-align: center;
+}
+.receipt-sign-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.receipt-sign {
+  width: 45mm;
+  text-align: center;
+}
+.receipt-sign-line {
+  border-top: 1px solid #000;
+  margin-bottom: 8px;
+}
+.receipt-footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 15.5px;
+}
+.receipt-footer p {
+  margin: 0;
+}
+
+/* ---------- Official letters / proposals (Prabha Hira Pratishthan formats) ---------- */
+.letter-sheet {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  padding: 12mm 16mm 14mm;
+  background: #fff;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.15);
+}
+.letter-sheet .receipt-letterhead {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #3f8f6b;
+}
+.letter-sheet p {
+  margin: 0 0 10px;
+  text-align: justify;
+}
+.letter-sheet h2 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 16px 0 6px;
+}
+.letter-sheet h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 14px 0;
+  text-decoration: underline;
+}
+.letter-sheet ul {
+  list-style: disc;
+  padding-left: 26px;
+  margin: 0 0 10px;
+}
+.letter-sheet ol {
+  list-style: decimal;
+  padding-left: 26px;
+  margin: 0 0 10px;
+}
+.letter-sheet li {
+  margin-bottom: 3px;
+}
+.letter-sheet table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 6px 0 14px;
+  font-size: 14px;
+}
+.letter-sheet th,
+.letter-sheet td {
+  border: 1px solid #000;
+  padding: 5px 8px;
+  vertical-align: top;
+  text-align: left;
+}
+.letter-sheet th {
+  background: #eef5f1;
+  font-weight: bold;
+}
+.letter-sheet td.num,
+.letter-sheet th.num {
+  text-align: right;
+  white-space: nowrap;
+}
+.letter-meta {
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 0 12px;
+}
+.letter-signatures {
+  display: flex;
+  margin-top: 34px;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+.letter-sign {
+  min-width: 150px;
+  text-align: center;
+}
+.letter-sign-space {
+  height: 56px;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 10mm 6mm;
+  }
+  body * {
+    visibility: hidden !important;
+  }
+  .print-area,
+  .print-area * {
+    visibility: visible !important;
+  }
+  .letter-sheet.print-area {
+    padding: 0 6mm;
+  }
+  .print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 198mm;
+    min-height: 0;
+    margin: 0;
+    box-shadow: none;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

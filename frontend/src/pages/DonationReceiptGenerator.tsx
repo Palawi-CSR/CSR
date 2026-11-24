@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
+import { ORG, amountInWords, financialYear, formatLongDate, formatShortDate, printDocument } from '../data/orgProfile';
+import { OrgLetterhead } from '../components/OrgLetterhead';
 import { 
   FileCheck2, 
   Download, 
@@ -18,6 +20,14 @@ interface DonationReceiptGeneratorProps {
   onOpenWhatsAppOutreach?: (phone: string, name: string, defaultText?: string) => void;
 }
 
+const receiptMode = (method: string) =>
+  ({
+    'Bank Transfer / NEFT': 'NEFT/RTGS',
+    'UPI / QR Code': 'UPI',
+    'Cheque / Demand Draft': 'Cheque/DD',
+    'Cash / Center Drop': 'Cash',
+  } as Record<string, string>)[method] ?? method;
+
 export const DonationReceiptGenerator: React.FC<DonationReceiptGeneratorProps> = ({
   onOpenWhatsAppOutreach,
 }) => {
@@ -31,7 +41,7 @@ export const DonationReceiptGenerator: React.FC<DonationReceiptGeneratorProps> =
     } as Record<string, string>)[method] ?? method;
 
   // Receipt Form State
-  const [receiptNo, setReceiptNo] = useState(`PLW/80G/2026/${Math.floor(1000 + Math.random() * 9000)}`);
+  const [receiptNo, setReceiptNo] = useState('776');
   const [donorName, setDonorName] = useState(() => tr('Aamjat Inamdar (Kasegaon)', 'आमजत इनामदार, कासेगाव'));
   const [panNumber, setPanNumber] = useState('IND-PAN-976723');
   const [mobileNo, setMobileNo] = useState('+919767235918');
@@ -44,39 +54,45 @@ export const DonationReceiptGenerator: React.FC<DonationReceiptGeneratorProps> =
   const [txnRef, setTxnRef] = useState('TXN981723491823');
   const [donationDate, setDonationDate] = useState('2026-10-25');
   const [include80G, setInclude80G] = useState(true);
+  const [receiptDate, setReceiptDate] = useState('2026-10-25');
+  const [remark, setRemark] = useState('Nutrition Support for HIV Kids');
 
   const [copied, setCopied] = useState(false);
+
+  const receiptFileName = `Receipt PHP ${financialYear(receiptDate)}-${receiptNo}`;
+
+  const handlePrintReceipt = () => printDocument(receiptFileName);
 
   const handleCopyReceiptSummary = () => {
     const amountText = donationType === 'monetary' ? `₹${amount.toLocaleString('en-IN')}` : inKindDetails;
     const summary = (language === 'mr'
       ? `
-पालवी फाउंडेशन - 80G देणगी पावती
+${ORG.name} - देणगी पावती
 पावती क्र.: ${receiptNo}
-दिनांक: ${donationDate}
+दिनांक: ${formatLongDate(receiptDate)}
 दात्याचे नाव: ${donorName}
 पॅन कार्ड: ${panNumber}
 प्राप्त रक्कम: ${amountText}
 भरणा पद्धत: ${paymentLabel(paymentMethod)} (${txnRef})
 
-12A नोंदणी: AACTP1234F20214
-80G कर सवलत नोंदणी: AACTP1234F80G01 (१००% कर वजावट)
+संस्था पॅन: ${ORG.pan}
+80G नोंदणी क्र.: ${ORG.reg80G}
 
 पालवी पंढरपूर येथील अनाथ मुलांना मदत केल्याबद्दल धन्यवाद.
     `
       : `
-PALAWI FOUNDATION - 80G DONATION RECEIPT
+${ORG.name} - Donation Receipt
 Receipt No: ${receiptNo}
-Date: ${donationDate}
+Date: ${formatLongDate(receiptDate)}
 Donor Name: ${donorName}
-PAN Card: ${panNumber}
-Amount Received: ${amountText}
-Payment Method: ${paymentMethod} (${txnRef})
+PAN: ${panNumber}
+Amount Received: ${amountText} (Rupees ${amountInWords(amount)})
+Mode: ${receiptMode(paymentMethod)} (${txnRef})
 
-12A Reg: AACTP1234F20214
-80G Tax Exemption Reg: AACTP1234F80G01 (100% Tax Deductible)
+Trust PAN: ${ORG.pan}
+80G No: ${ORG.reg80G}
 
-Thank you for supporting orphaned children at Palawi Pandharpur.
+Thank you very much for your generous contribution.
     `).trim();
 
     navigator.clipboard.writeText(summary);
@@ -115,6 +131,28 @@ Thank you for supporting orphaned children at Palawi Pandharpur.
           </h2>
 
           <div className="space-y-3 text-xs">
+            {/* Receipt No & Receipt Date */}
+            <div className="grid grid-cols-2 gap-2.5">
+              <div>
+                <label className="block text-slate-700 font-bold mb-1">{tr('Receipt No.', 'पावती क्र.')}</label>
+                <input
+                  type="text"
+                  value={receiptNo}
+                  onChange={(e) => setReceiptNo(e.target.value)}
+                  className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 font-mono text-slate-800 font-bold focus:outline-none focus:border-[#039583]"
+                />
+              </div>
+              <div>
+                <label className="block text-slate-700 font-bold mb-1">{tr('Receipt Date', 'पावती दिनांक')}</label>
+                <input
+                  type="date"
+                  value={receiptDate}
+                  onChange={(e) => setReceiptDate(e.target.value)}
+                  className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-slate-800 font-medium focus:outline-none focus:border-[#039583]"
+                />
+              </div>
+            </div>
+
             {/* Donor Name */}
             <div>
               <label className="block text-slate-700 font-bold mb-1">
@@ -262,6 +300,18 @@ Thank you for supporting orphaned children at Palawi Pandharpur.
                 </label>
               </div>
             </div>
+
+            {/* Remark */}
+            <div>
+              <label className="block text-slate-700 font-bold mb-1">{tr('Remark (purpose)', 'शेरा (उद्देश)')}</label>
+              <input
+                type="text"
+                value={remark}
+                onChange={(e) => setRemark(e.target.value)}
+                placeholder={tr('e.g. Nutrition Support for HIV Kids Oct-26', 'उदा. HIV बाधित मुलांसाठी पोषण मदत')}
+                className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-slate-800 font-medium focus:outline-none focus:border-[#039583]"
+              />
+            </div>
           </div>
         </div>
 
@@ -276,7 +326,7 @@ Thank you for supporting orphaned children at Palawi Pandharpur.
 
             <div className="flex items-center gap-2 text-xs">
               <button
-                onClick={() => window.print()}
+                onClick={handlePrintReceipt}
                 className="px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold rounded-lg flex items-center gap-1.5 transition-colors"
               >
                 <Printer className="w-3.5 h-3.5" />
@@ -297,7 +347,7 @@ Thank you for supporting orphaned children at Palawi Pandharpur.
                     onOpenWhatsAppOutreach(
                       mobileNo,
                       donorName,
-                      tr(`Namaste ${donorName}! Thank you for your generous contribution to Palawi NGO. Please find your official 80G Tax Exemption Receipt (No: ${receiptNo}, Amount: ₹${amount.toLocaleString('en-IN')}). Reg: AACTP1234F80G01.`, `नमस्कार ${donorName}! पालवी संस्थेला दिलेल्या उदार देणगीबद्दल मनःपूर्वक धन्यवाद. आपली अधिकृत 80G कर सवलत पावती (क्र.: ${receiptNo}, रक्कम: ₹${amount.toLocaleString('en-IN')}) सोबत पाठवत आहोत. नोंदणी: AACTP1234F80G01.`)
+                      tr(`Namaste ${donorName}! Thank you for your generous contribution to Palawi NGO. Please find your official 80G Tax Exemption Receipt (No: ${receiptNo}, Amount: ₹${amount.toLocaleString('en-IN')}). 80G No: ${ORG.reg80G}.`, `नमस्कार ${donorName}! पालवी संस्थेला दिलेल्या उदार देणगीबद्दल मनःपूर्वक धन्यवाद. आपली अधिकृत 80G कर सवलत पावती (क्र.: ${receiptNo}, रक्कम: ₹${amount.toLocaleString('en-IN')}) सोबत पाठवत आहोत. 80G क्र.: ${ORG.reg80G}.`)
                     )
                   }
                   className="px-3 py-1.5 bg-[#039583] hover:bg-[#039583]/90 text-white font-bold rounded-lg flex items-center gap-1.5 transition-colors shadow-2xs"
@@ -309,95 +359,92 @@ Thank you for supporting orphaned children at Palawi Pandharpur.
             </div>
           </div>
 
-          {/* Printable Official Receipt Sheet */}
-          <div className="p-6 bg-slate-50/50 border-2 border-slate-300 rounded-2xl space-y-5 text-xs text-slate-800 leading-relaxed font-sans relative">
-            {/* Watermark / Badge */}
-            <div className="absolute top-6 right-6 opacity-10 pointer-events-none">
-              <Building2 className="w-32 h-32 text-[#023b77]" />
-            </div>
-
-            {/* Letterhead Header */}
-            <div className="border-b-2 border-[#023b77] pb-4 flex items-start justify-between gap-4">
-              <div className="space-y-1">
-                <div className="flex items-center gap-2 text-[#023b77]">
-                  <Building2 className="w-5 h-5 text-[#039583]" />
-                  <span className="text-base font-extrabold tracking-tight">{tr('PALAWI FOUNDATION', 'पालवी फाउंडेशन')}</span>
+          {/* Printable Official Receipt Sheet (matches Prabha-Hira Pratishthan format) */}
+          <div className="overflow-x-auto">
+            <div id="palawi-receipt" className="receipt-sheet print-area">
+              <div className="receipt-top">
+                <div>
+                  <div>Receipt No.: {receiptNo}</div>
+                  <div>Reg No.: {ORG.regNo}</div>
                 </div>
-                <p className="text-[10px] text-slate-500">{tr('Pandharpur, District Solapur, Maharashtra - 413304', 'पंढरपूर, जिल्हा सोलापूर, महाराष्ट्र - ४१३३०४')}</p>
-                <p className="text-[10px] font-mono text-[#039583] font-bold">
-                  {tr('12A Reg', '12A नोंदणी')}: AACTP1234F20214 | {tr('80G Tax Reg', '80G कर नोंदणी')}: AACTP1234F80G01
+                <div>Date: {formatLongDate(receiptDate)}</div>
+              </div>
+
+              <OrgLetterhead />
+
+              <div className="receipt-fields">
+                <p>
+                  <b>Donor's Name </b>
+                  <span className="receipt-fill">{donorName}</span>
                 </p>
-              </div>
-
-              <div className="text-right font-mono text-[11px] text-slate-700 space-y-0.5">
-                <p className="font-extrabold text-[#023b77] text-xs">{tr('OFFICIAL DONATION RECEIPT', 'अधिकृत देणगी पावती')}</p>
-                <p className="font-bold">{receiptNo}</p>
-                <p className="text-slate-500">{tr('Date:', 'दिनांक:')} {donationDate}</p>
-              </div>
-            </div>
-
-            {/* Receipt Main Body */}
-            <div className="bg-white p-4 rounded-xl border border-slate-200 space-y-3">
-              <div className="grid grid-cols-2 gap-4 text-xs">
-                <div>
-                  <span className="text-[10px] text-slate-400 font-bold uppercase block">{tr('Received With Thanks From', 'यांच्याकडून सधन्यवाद प्राप्त')}</span>
-                  <span className="font-extrabold text-slate-900 text-sm block">{donorName}</span>
-                  <span className="text-slate-600 font-mono text-[11px] block">{address}</span>
-                </div>
-
-                <div className="text-right">
-                  <span className="text-[10px] text-slate-400 font-bold uppercase block">{tr('Donor PAN / Tax Registration', 'दात्याचा पॅन / कर नोंदणी')}</span>
-                  <span className="font-mono font-extrabold text-slate-900 text-sm bg-slate-100 px-2 py-0.5 rounded inline-block">
-                    {panNumber || tr('NOT PROVIDED', 'दिलेला नाही')}
-                  </span>
-                </div>
-              </div>
-
-              <div className="pt-3 border-t border-slate-100 grid grid-cols-2 gap-4">
-                <div>
-                  <span className="text-[10px] text-slate-400 font-bold uppercase block">{tr('Donation Amount / Material', 'देणगी रक्कम / साहित्य')}</span>
-                  {donationType === 'monetary' ? (
-                    <span className="font-mono text-xl font-extrabold text-[#023b77]">
-                      ₹{amount.toLocaleString('en-IN')}
-                    </span>
-                  ) : (
-                    <span className="font-bold text-slate-800 text-xs">
-                      {inKindDetails} ({tr('Est.', 'अंदाजे')} ₹{amount.toLocaleString('en-IN')})
-                    </span>
+                <p>
+                  <b>Address : </b>
+                  <span className="receipt-fill">{address}</span>
+                </p>
+                <p>
+                  <b>Amount : </b>
+                  <span className="receipt-fill">{amount.toLocaleString('en-IN')}/-</span>
+                </p>
+                <p>
+                  the sum of Rupees{' '}
+                  <span className="receipt-fill font-bold">{amountInWords(amount)}</span>
+                </p>
+                {donationType === 'inkind' && (
+                  <p>
+                    <b>Material : </b>
+                    <span className="receipt-fill">{inKindDetails}</span>
+                  </p>
+                )}
+                <p>
+                  <b>Mode : </b>
+                  <span className="receipt-fill">{donationType === 'inkind' ? 'In-Kind' : receiptMode(paymentMethod)}</span>
+                </p>
+                <p>
+                  <b>Dated : </b>
+                  <span className="receipt-fill">{formatShortDate(donationDate)}</span>
+                  {txnRef && (
+                    <>
+                      {' '}
+                      <b>Ref No.: </b>
+                      <span className="receipt-fill">{txnRef}</span>
+                    </>
                   )}
-                </div>
-
-                <div className="text-right space-y-0.5 font-mono text-[11px]">
-                  <span className="text-[10px] text-slate-400 font-bold uppercase block">{tr('Payment Method & Reference', 'भरणा पद्धत व संदर्भ')}</span>
-                  <p className="font-bold text-slate-900">{paymentLabel(paymentMethod)}</p>
-                  <p className="text-slate-500">{txnRef}</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Legal 80G Declaration Clause */}
-            {include80G && (
-              <div className="p-3.5 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1 text-[11px] text-emerald-900">
-                <p className="font-bold flex items-center gap-1.5">
-                  <ShieldCheck className="w-4 h-4 text-emerald-700 shrink-0" />
-                  <span>{tr('Statutory Section 80G Income Tax Deduction Declaration', 'आयकर कलम 80G अंतर्गत कर वजावट घोषणापत्र')}</span>
                 </p>
-                <p className="text-[10.5px] leading-relaxed text-emerald-800">
-                  {tr('Certified that donations made to Palawi NGO qualify for 100% / 50% tax deduction under Section 80G of the Income Tax Act, 1961 (Registration No:', 'प्रमाणित करण्यात येते की पालवी संस्थेला दिलेल्या देणग्या आयकर अधिनियम, १९६१ च्या कलम 80G अंतर्गत १००% / ५०% कर वजावटीस पात्र आहेत (नोंदणी क्र.:')} <strong>AACTP1234F80G01</strong>). {tr('No goods or services were provided in exchange for this contribution.', 'या देणगीच्या मोबदल्यात कोणतीही वस्तू किंवा सेवा देण्यात आलेली नाही.')}
+                <p>
+                  <b>Donor PAN : </b>
+                  <span className="receipt-fill">{panNumber.toUpperCase() || 'N/A'}</span>
                 </p>
-              </div>
-            )}
-
-            {/* Signatory Footer */}
-            <div className="pt-4 border-t border-slate-200 flex items-center justify-between text-[11px]">
-              <div className="space-y-0.5">
-                <p className="font-bold text-slate-900">{tr('Palawi Center Office', 'पालवी केंद्र कार्यालय')}</p>
-                <p className="text-slate-500">{tr('Pandharpur, Maharashtra', 'पंढरपूर, महाराष्ट्र')}</p>
+                {remark && (
+                  <p>
+                    <b>Remark : </b>
+                    <span className="receipt-fill">{remark}</span>
+                  </p>
+                )}
               </div>
 
-              <div className="text-right space-y-1">
-                <div className="font-bold text-[#023b77]">{tr('Authorized Signatory', 'अधिकृत स्वाक्षरीकर्ता')}</div>
-                <div className="text-[10px] text-slate-400 font-mono">{tr('Palawi Foundation Trust', 'पालवी फाउंडेशन ट्रस्ट')}</div>
+              <div className="receipt-signatures">
+                <div className="receipt-for">For Prabha Hira Pratishthan</div>
+                <div className="receipt-sign-row">
+                  <div className="receipt-sign">
+                    <div className="receipt-sign-line" />
+                    <div>President</div>
+                    <div>{ORG.president}</div>
+                  </div>
+                  <div className="receipt-sign">
+                    <div className="receipt-sign-line" />
+                    <div>Secretary</div>
+                    <div>{ORG.secretary}</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="receipt-footer">
+                <p>Prabha Hira Pratishthan Pan number: {ORG.pan}.</p>
+                {include80G && <p>Your donations are tax-exempt under Section 80G of Income Tax Act 1961.</p>}
+                {include80G && (
+                  <p className="mt-3">Donation is Exempted U/s 80G IT Act 1961. Vide Ref No. 80G No: {ORG.reg80G}</p>
+                )}
+                <p className={include80G ? 'font-bold' : 'font-bold mt-3'}>Thank you very much for your generous contribution</p>
               </div>
             </div>
           </div>
