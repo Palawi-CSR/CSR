@@ -2,8 +2,8 @@
 
 from fastapi import APIRouter
 
-from app.api.routes import auth, crm, dashboard, explorer, operations, registers, whatsapp
+from app.api.routes import auth, crm, dashboard, employees, explorer, operations, registers, whatsapp
 
 api_router = APIRouter()
-for module in (auth, registers, crm, operations, whatsapp, dashboard, explorer):
+for module in (auth, employees, registers, crm, operations, whatsapp, dashboard, explorer):
     api_router.include_router(module.router)

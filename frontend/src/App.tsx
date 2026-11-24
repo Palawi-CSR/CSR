@@ -10,6 +10,8 @@ import { ProposalCreator } from './pages/ProposalCreator';
 import { ReportGenerator } from './pages/ReportGenerator';
 import { DonationReceiptGenerator } from './pages/DonationReceiptGenerator';
 import { ProductsAndRevenue } from './pages/ProductsAndRevenue';
+import { EmployeeManagement } from './pages/EmployeeManagement';
+import { EmployeeDashboard } from './pages/EmployeeDashboard';
 import { WhatsappIntegrationSuite } from './pages/WhatsappIntegrationSuite';
 import { LoginPage } from './pages/LoginPage';
 import { api } from './services/api';
@@ -43,14 +45,14 @@ export default function App() {
       email: isEmployee ? 'employee@palawi.org' : 'admin@palawi.org',
       role: newRole,
     });
-    setActiveTab(isEmployee ? 'gate-register' : 'dashboard');
+    setActiveTab(isEmployee ? 'employee-dashboard' : 'dashboard');
   };
 
   const handleLoginSuccess = (loggedInUser: User) => {
     setUser(loggedInUser);
     setShowLoginScreen(false);
     if (loggedInUser.role === 'Employee') {
-      setActiveTab('gate-register');
+      setActiveTab('employee-dashboard');
     } else {
       setActiveTab('dashboard');
     }
@@ -121,9 +123,14 @@ export default function App() {
             />
           )}
 
+          {/* Employee home dashboard */}
+          {user?.role === 'Employee' && activeTab === 'employee-dashboard' && (
+            <EmployeeDashboard />
+          )}
+
           {/* Gate Register - available to both Employee & Admin */}
           {user && activeTab === 'gate-register' && (
-            <GateRegisterLog />
+            <GateRegisterLog isAdmin={user.role !== 'Employee'} />
           )}
 
           {/* Admin-only features: Only rendered if user is Admin / CSR Admin */}
@@ -175,6 +182,11 @@ export default function App() {
                 <ProductsAndRevenue />
               )}
 
+              {/* Employee accounts */}
+              {activeTab === 'employees' && (
+                <EmployeeManagement />
+              )}
+
               {activeTab === 'whatsapp-suite' && (
                 <WhatsappIntegrationSuite
                   initialPhone={whatsappPhone}
@@ -186,7 +198,7 @@ export default function App() {
           )}
 
           {/* Fallback for Employee if accidentally switched to another tab */}
-          {user?.role === 'Employee' && activeTab !== 'gate-register' && (
+          {user?.role === 'Employee' && activeTab !== 'gate-register' && activeTab !== 'employee-dashboard' && (
             <div className="p-12 text-center space-y-4">
               <div className="p-4 bg-amber-50 border border-amber-200 rounded-2xl max-w-md mx-auto text-amber-900">
                 <p className="font-bold text-sm">{tr('Gate Register Access Only', 'फक्त गेट रजिस्टर प्रवेश')}</p>

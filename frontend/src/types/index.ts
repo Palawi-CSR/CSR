@@ -13,6 +13,17 @@ export interface User {
   createdAt: string;
 }
 
+export interface Employee {
+  id: string;
+  name: string;
+  email: string;
+  phone: string;
+  designation: string;
+  role: 'Employee';
+  organization: string;
+  createdAt: string;
+}
+
 export type CSRStatus = 'Prospective' | 'Contacted' | 'Proposal Submitted' | 'Eligible' | 'Pledged' | 'Partnered' | 'Closed';
 export type CSRPriority = 'High' | 'Medium' | 'Low';
 export type FocusArea = 'Education' | 'Environmental Sustainability' | 'Healthcare & Sanitation' | 'Skill Development' | 'Rural Infrastructure' | 'Disaster Relief' | 'Women Empowerment';
@@ -203,6 +214,33 @@ export interface GateRegisterEntry {
   extraRemark?: string; // donation / remarks, e.g. "Jwari- 30 kg, Gahu- 30 kg"
   photoUrl?: string | null;
   visitNo?: string | number;
+}
+
+/** Gate register visit counts for a day, its week (from Monday) and its month; dates are YYYY-MM-DD. */
+export interface GateVisitStats {
+  today: number;
+  week: number;
+  month: number;
+  date: string;
+  weekStart: string;
+  monthStart: string;
+}
+
+/** A gate register visitor whose birthday is today. */
+export interface GateBirthday {
+  name: string;
+  mobileNo: string;
+  dateOfBirth: string;
+  age: number | null;
+  address: string;
+  lastVisit: string;
+  visits: number;
+}
+
+/** All visits by one gate register visitor, plus other names seen on the same mobile number. */
+export interface GateVisitorHistory {
+  visits: GateRegisterEntry[];
+  sharedMobile: { name: string; visits: number }[];
 }
 
 /** New gate register entry: the entry fields plus an optional photo as a data URL. */

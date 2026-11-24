@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { api } from '../services/api';
 import { useLanguage } from '../context/LanguageContext';
+import { VisitStatsCard } from '../components/VisitStatsCard';
 import { OperationalTask, InventoryItem, InteractionHistory } from '../types';
 import { 
   IndianRupee, 
@@ -167,6 +168,9 @@ export const DashboardOverview: React.FC<DashboardOverviewProps> = ({
           </div>
         </div>
       </div>
+
+      {/* Gate register visits */}
+      <VisitStatsCard className="lg:max-w-xl" />
 
       {/* Visual Charts Row */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

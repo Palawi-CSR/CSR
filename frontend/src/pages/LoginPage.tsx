@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { User } from '../types';
 import { useLanguage } from '../context/LanguageContext';
+import { api } from '../services/api';
 import { 
   Building2, 
   ShieldCheck, 
@@ -48,9 +49,24 @@ export const LoginPage: React.FC<LoginPageProps> = ({
     onLoginSuccess(loggedInUser);
   };
 
-  const handleCustomLogin = (e: React.FormEvent) => {
+  const handleCustomLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
+
+    // Employees added by an admin sign in with their own name and Employee access.
+    try {
+      const result = await api.login(email);
+      if (result?.user?.role === 'Employee') {
+        onLoginSuccess({
+          ...result.user,
+          organization: 'Palawi Foundation',
+          createdAt: new Date().toISOString(),
+        });
+        return;
+      }
+    } catch {
+      // API unreachable: fall back to the demo sign-in below.
+    }
 
     const isEmployee = selectedRole === 'Employee' || email.toLowerCase().includes('employee');
     const loggedInUser: User = {

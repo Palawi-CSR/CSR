@@ -1,3 +1,5 @@
+from datetime import date
+
 from fastapi import APIRouter, HTTPException, status
 
 from app.api.deps import Database
@@ -11,6 +13,23 @@ router = APIRouter(tags=["registers"])
 @router.get("/gate-register")
 async def list_gate_register(db: Database, search: str | None = None, remark: str | None = None) -> list[dict]:
     return await registers.list_gate_register(db, search, remark)
+
+
+@router.get("/gate-register/visitor-history")
+async def gate_visitor_history(db: Database, name: str, mobile: str | None = None) -> dict:
+    return await registers.gate_visitor_history(db, name, mobile)
+
+
+@router.get("/gate-register/visit-stats")
+async def gate_visit_stats(db: Database, on: date | None = None) -> dict:
+    """Visit counts for the day `on` (YYYY-MM-DD; the caller's local date), its week and its month."""
+    return await registers.gate_visit_stats(db, on or date.today())
+
+
+@router.get("/gate-register/birthdays")
+async def gate_birthdays(db: Database, on: date | None = None) -> list[dict]:
+    """Visitors with a birthday on `on` (YYYY-MM-DD; the caller's local date). Defaults to today."""
+    return await registers.gate_birthdays(db, on or date.today())
 
 
 @router.post("/gate-register", status_code=status.HTTP_201_CREATED)

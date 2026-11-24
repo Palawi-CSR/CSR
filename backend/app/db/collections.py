@@ -14,6 +14,7 @@ MATERIAL_DISTRIBUTION = "material_distribution"
 STAFF_ATTENDANCE = "staff_attendance"
 WHATSAPP_MESSAGES = "whatsapp_messages"
 WHATSAPP_TEMPLATES = "whatsapp_templates"
+EMPLOYEES = "employees"
 # Sequence counters ({_id: <name>, seq: <int>}); not in ALL because it has no id/sort_key.
 COUNTERS = "counters"
 # Gate register photos ({_id: <file name>, contentType, data}); not in ALL for the same reason.
@@ -34,4 +35,5 @@ ALL = (
     STAFF_ATTENDANCE,
     WHATSAPP_MESSAGES,
     WHATSAPP_TEMPLATES,
+    EMPLOYEES,
 )

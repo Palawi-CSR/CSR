@@ -10,7 +10,8 @@ import {
   Sparkles,
   FileSpreadsheet,
   FileCheck2,
-  ShoppingBag
+  ShoppingBag,
+  Users
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -37,6 +38,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
       id: 'dashboard',
       label: t('nav.dashboard'),
       icon: LayoutDashboard,
+    },
+    {
+      id: 'employee-dashboard',
+      label: t('nav.myDashboard'),
+      icon: LayoutDashboard,
+      employeeOnly: true,
     },
     {
       id: 'gate-register',
@@ -74,6 +81,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
       icon: MessageSquareCode,
       highlight: true,
     },
+    {
+      id: 'employees',
+      label: t('nav.employees'),
+      icon: Users,
+    },
   ];
 
   // Filter items based on user role and auth state
@@ -82,10 +94,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
     if (!user && !item.publicOnly && item.id !== 'dashboard') return false;
     if (user && item.publicOnly) return false;
 
-    // For Employee: ONLY show Gate Register Log
+    // For Employee: their own dashboard and the Gate Register Log only
     if (user && user.role === 'Employee') {
-      return item.id === 'gate-register';
+      return item.id === 'employee-dashboard' || item.id === 'gate-register';
     }
+    if (item.employeeOnly) return false;
 
     return true;
   });

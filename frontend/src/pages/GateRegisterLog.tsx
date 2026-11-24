@@ -4,6 +4,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { shrinkPhoto, PHOTO_MAX_SOURCE_BYTES } from '../services/photo';
 import { DEFAULT_STATE, INDIA_LOCATIONS, INDIA_STATES } from '../data/indiaLocations';
 import { GateRegisterEntry, MaterialDistributionEntry, StaffAttendanceEntry, RegisterDocument, RegisterEntries } from '../types';
+import { DonorProfileModal } from '../components/DonorProfileModal';
 import { AUTHENTIC_MENSTRUAL_HYGIENE_REGISTER } from '../data/menstrualHygieneRegisterData';
 import { AUTHENTIC_ALBENDAZOLE_REGISTER } from '../data/albendazoleRegisterData';
 import { AUTHENTIC_BP_VITAL_REGISTER } from '../data/bpVitalRegisterData';
@@ -19,7 +20,8 @@ import {
   ExternalLink,
   Camera,
   Loader2,
-  CheckCircle2
+  CheckCircle2,
+  FolderOpen
 } from 'lucide-react';
 
 const OTHER_CITY = '__other__';
@@ -48,11 +50,19 @@ const emptyGateForm = () => ({
   extraRemark: '',
 });
 
-export const GateRegisterLog: React.FC = () => {
+interface GateRegisterLogProps {
+  /** Admins can switch between every register and the scanned PDFs; employees only see the gate register. */
+  isAdmin?: boolean;
+}
+
+export const GateRegisterLog: React.FC<GateRegisterLogProps> = ({ isAdmin = false }) => {
   const { t, tr, tv, tf, language } = useLanguage();
   const records = (n: number) => tr(`${n} Records`, `${n} नोंदी`);
   type RegisterTab = 'gate' | 'hygiene' | 'albendazole' | 'bp' | 'medical' | 'art' | 'material' | 'attendance' | 'sources';
   const [activeRegisterTab, setActiveRegisterTab] = useState<RegisterTab>('gate');
+  useEffect(() => {
+    if (!isAdmin) setActiveRegisterTab('gate');
+  }, [isAdmin]);
 
   // Original scanned registers (PDFs)
   const [documents, setDocuments] = useState<RegisterDocument[]>([]);
@@ -93,6 +103,7 @@ export const GateRegisterLog: React.FC = () => {
   const [photo, setPhoto] = useState<string | null>(null);
   const [photoBusy, setPhotoBusy] = useState(false);
   const [viewPhoto, setViewPhoto] = useState<GateRegisterEntry | null>(null);
+  const [profileEntry, setProfileEntry] = useState<GateRegisterEntry | null>(null);
   const photoInput = useRef<HTMLInputElement>(null);
 
   const [formData, setFormData] = useState(emptyGateForm);
@@ -215,6 +226,17 @@ export const GateRegisterLog: React.FC = () => {
   ];
   const remarkTypes = ['All', ...categoryTypes];
 
+  const registerButtons: { id: RegisterTab; label: string }[] = [
+    { id: 'gate', label: tr('Gate Register', 'गेट रजिस्टर') },
+    { id: 'hygiene', label: tr('Menstrual Hygiene', 'मासिक पाळी') },
+    { id: 'albendazole', label: tr('Albendazole', 'अल्बेन्धाझोल') },
+    { id: 'bp', label: tr('BP & Vitals', 'बीपी व व्हायटल्स') },
+    { id: 'medical', label: tr('Medical Monitoring', 'वैद्यकीय तपासणी') },
+    { id: 'art', label: tr('ART Tablets', 'एआरटी गोळ्या') },
+    { id: 'material', label: tr('Material Distribution', 'साहित्य वाटप') },
+    { id: 'attendance', label: tr('Staff Attendance', 'कर्मचारी उपस्थिती') },
+  ];
+
   return (
     <div className="p-6 space-y-6 bg-slate-50 text-slate-900 min-h-[calc(100vh-61px)] font-sans">
       {/* Header Bar */}
@@ -256,6 +278,36 @@ export const GateRegisterLog: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Register switcher (admin only) */}
+      {isAdmin && (
+        <div className="flex flex-wrap items-center gap-2">
+          {registerButtons.map((reg) => (
+            <button
+              key={reg.id}
+              onClick={() => setActiveRegisterTab(reg.id)}
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium border transition-all cursor-pointer ${
+                activeRegisterTab === reg.id
+                  ? 'bg-slate-800 border-slate-800 text-white'
+                  : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-100'
+              }`}
+            >
+              {reg.label}
+            </button>
+          ))}
+          <button
+            onClick={() => setActiveRegisterTab('sources')}
+            className={`ml-auto flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold border transition-all cursor-pointer ${
+              activeRegisterTab === 'sources'
+                ? 'bg-[#023b77] border-[#023b77] text-white'
+                : 'bg-[#023b77]/10 border-[#023b77]/30 text-[#023b77] hover:bg-[#023b77]/15'
+            }`}
+          >
+            <FolderOpen className="w-4 h-4" />
+            {tr(`Register PDFs (${documents.length})`, `रजिस्टर पीडीएफ (${documents.length})`)}
+          </button>
+        </div>
+      )}
 
       {/* REGISTER VIEW 1: GATE REGISTER LOG */}
       {activeRegisterTab === 'gate' && (
@@ -320,7 +372,14 @@ export const GateRegisterLog: React.FC = () => {
                                 <img src={entry.photoUrl} alt={entry.visitorName} className="w-8 h-8 rounded-md object-cover border border-slate-200" />
                               </button>
                             )}
-                            <span>{entry.visitorName}</span>
+                            <button
+                              type="button"
+                              onClick={() => setProfileEntry(entry)}
+                              className="text-left text-[#023b77] hover:underline cursor-pointer"
+                              title={tr('View donor details & visit history', 'दात्याची माहिती व भेटींचा इतिहास पहा')}
+                            >
+                              {entry.visitorName}
+                            </button>
                           </div>
                         </td>
                         <td className="py-3 px-4 font-mono whitespace-nowrap">{entry.dateOfBirth && entry.dateOfBirth !== 'N/A' ? entry.dateOfBirth : '—'}</td>
@@ -972,6 +1031,9 @@ export const GateRegisterLog: React.FC = () => {
           </div>
         </div>
       )}
+
+      {/* Donor profile & visit history */}
+      {profileEntry && <DonorProfileModal entry={profileEntry} onClose={() => setProfileEntry(null)} />}
 
       {/* Photo viewer */}
       {viewPhoto?.photoUrl && (

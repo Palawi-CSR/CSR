@@ -1,4 +1,4 @@
-import { CSRPartner, DonorRecord, DonorPipelineItem, InteractionHistory, Contribution, InventoryItem, OperationalTask, WhatsAppMessage, WhatsAppTemplate, SystemMetric, GateRegisterEntry, MaterialDistributionEntry, StaffAttendanceEntry, RegisterDocument, RegisterEntries, GateRegisterEntryInput } from '../types';
+import { Employee, GateBirthday, GateVisitStats, GateVisitorHistory, CSRPartner, DonorRecord, DonorPipelineItem, InteractionHistory, Contribution, InventoryItem, OperationalTask, WhatsAppMessage, WhatsAppTemplate, SystemMetric, GateRegisterEntry, MaterialDistributionEntry, StaffAttendanceEntry, RegisterDocument, RegisterEntries, GateRegisterEntryInput } from '../types';
 
 // Empty in development: Vite proxies /api to the FastAPI server (see vite.config.ts).
 // Set VITE_API_BASE_URL (e.g. https://api.example.org) when the API lives on another origin.
@@ -17,6 +17,34 @@ export const api = {
 
   async getMe() {
     const res = await fetch(API_BASE_URL + '/api/v1/auth/me');
+    return res.json();
+  },
+
+  // Employees (managed by admins)
+  async getEmployees() {
+    const res = await fetch(API_BASE_URL + '/api/v1/employees');
+    if (!res.ok) throw new Error(`Could not load employees (${res.status})`);
+    return (await res.json()) as Employee[];
+  },
+
+  async addEmployee(employee: { name: string; email: string; phone?: string; designation?: string }) {
+    const res = await fetch(API_BASE_URL + '/api/v1/employees', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(employee),
+    });
+    const body = await res.json().catch(() => null);
+    if (!res.ok) {
+      const detail = body?.detail;
+      const message = typeof detail === 'string' ? detail : Array.isArray(detail) ? detail.map((d: any) => String(d.msg).replace(/^Value error, /, '')).join('; ') : '';
+      throw new Error(message || `Could not add the employee (${res.status})`);
+    }
+    return body as Employee;
+  },
+
+  async deleteEmployee(id: string) {
+    const res = await fetch(`${API_BASE_URL}/api/v1/employees/${id}`, { method: 'DELETE' });
+    if (!res.ok) throw new Error(`Could not remove the employee (${res.status})`);
     return res.json();
   },
 
@@ -198,6 +226,30 @@ export const api = {
     const res = await fetch(`${API_BASE_URL}/api/v1/gate-register?${query.toString()}`);
     const entries = (await res.json()) as GateRegisterEntry[];
     return entries.map((e) => (e.photoUrl ? { ...e, photoUrl: API_BASE_URL + e.photoUrl } : e));
+  },
+
+  async getGateVisitStats(on: string) {
+    const res = await fetch(`${API_BASE_URL}/api/v1/gate-register/visit-stats?on=${encodeURIComponent(on)}`);
+    if (!res.ok) throw new Error(`Could not load visit counts (${res.status})`);
+    return (await res.json()) as GateVisitStats;
+  },
+
+  async getGateBirthdays(on: string) {
+    const res = await fetch(`${API_BASE_URL}/api/v1/gate-register/birthdays?on=${encodeURIComponent(on)}`);
+    if (!res.ok) throw new Error(`Could not load birthdays (${res.status})`);
+    return (await res.json()) as GateBirthday[];
+  },
+
+  async getGateVisitorHistory(name: string, mobile?: string) {
+    const query = new URLSearchParams({ name });
+    if (mobile) query.set('mobile', mobile);
+    const res = await fetch(`${API_BASE_URL}/api/v1/gate-register/visitor-history?${query.toString()}`);
+    if (!res.ok) throw new Error(`Could not load the visit history (${res.status})`);
+    const history = (await res.json()) as GateVisitorHistory;
+    return {
+      ...history,
+      visits: history.visits.map((e) => (e.photoUrl ? { ...e, photoUrl: API_BASE_URL + e.photoUrl } : e)),
+    };
   },
 
   // Original scanned registers (PDFs served by the backend)
